@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.763 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.727 s <<< FAILURE! - in TestSuite
+quitDriver(TestsVloop)  Time elapsed: 5.499 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DESKTOP-STRP6VM', ip: '192.168.55.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:25039 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Caused by: java.net.ConnectException: Connection refused: connect
+
