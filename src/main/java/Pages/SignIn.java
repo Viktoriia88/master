@@ -12,12 +12,27 @@ public class SignIn {
         this.driver = driver;
     }
 
-    public void logIn() {
-        WebElement emailFld = driver.findElement(By.cssSelector("#user_email"));
-        emailFld.sendKeys("vloopapp15@gmail.com");
-        WebElement passwordFld = driver.findElement(By.id("user_password"));
-        passwordFld.sendKeys("12345678vloop");
+    public void logIn(String email, String password) {
+        enterEmail(email);
+        enterPassword(password);
         WebElement logInBtn = driver.findElement(By.id("user_login"));
         logInBtn.click();
-        }
+    }
+
+    public void enterEmail(String email) {
+        WebElement emailFld = driver.findElement(By.cssSelector("#user_email"));
+        emailFld.sendKeys(email);
+    }
+
+    public void enterPassword(String password){
+        WebElement passwordFld = driver.findElement(By.id("user_password"));
+        passwordFld.sendKeys(password);
+    }
+
+    public boolean isLogInBtnEnabled(){
+        WebElement logInBtn = driver.findElement(By.id("user_login"));
+        return logInBtn.isEnabled();
+    }
+
+
 }
