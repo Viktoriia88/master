@@ -22,7 +22,6 @@ public class TestsVloop extends Setting{
     public void checkLogInBtnEnabled(){
         SignIn signIn = new SignIn(driver);
         signIn.enterEmail("vloopapp15@gmail.com");
-        Assert.assertTrue( signIn.isLogInBtnEnabled(), String.valueOf(true));
-        Assert.assertEquals(driver.getCurrentUrl(), "http://alpha.vloop.io/home/");
+        Assert.assertFalse( signIn.isLogInBtnEnabled(), String.valueOf(false));
     }
 }
