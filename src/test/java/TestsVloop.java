@@ -31,6 +31,6 @@ public class TestsVloop extends Setting{
         signIn.logIn("vloopapp@gmail.com", "12345678vloop");
         WebElement toastMsg = (new WebDriverWait(driver, 30))
                 .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".toast-message")));
-        Assert.assertEquals(toastMsg.getText(), "Invalid login credentials. Please try again.");
+        Assert.assertEquals(toastMsg.getText(), "Invalid login credentials. Please try again");
     }
 }
