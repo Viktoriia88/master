@@ -39,9 +39,5 @@ public class Setting {
     public static void serviceStop(){
         service.stop();
     }
-//
-//    public static WebDriver getDriver()
-//    {
-//        return driver;
-//    }
+
 }
