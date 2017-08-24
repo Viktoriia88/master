@@ -2,26 +2,32 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInBtnEnabled_2017-08-24_12-53.png>screenshot_checkLogInBtnEnabled_2017-08-24_12-53</a></p>]]>
+      <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInBtnEnabled_2017-08-24_13-01.png>screenshot_checkLogInBtnEnabled_2017-08-24_13-01</a></p>]]>
     </line>
     <line>
-      <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInVloop_2017-08-24_12-54.png>screenshot_checkLogInVloop_2017-08-24_12-54</a></p>]]>
+      <![CDATA[<a href=http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg>cat</a]]>
+    </line>
+    <line>
+      <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInVloop_2017-08-24_13-01.png>screenshot_checkLogInVloop_2017-08-24_13-01</a></p>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg>cat</a]]>
     </line>
   </reporter-output>
-  <suite name="Suite1" duration-ms="34671" started-at="2017-08-24T10:53:43Z" finished-at="2017-08-24T10:54:18Z">
+  <suite name="Suite1" duration-ms="36585" started-at="2017-08-24T11:01:33Z" finished-at="2017-08-24T11:02:10Z">
     <groups>
     </groups>
-    <test name="Vloop-package" duration-ms="34671" started-at="2017-08-24T10:53:43Z" finished-at="2017-08-24T10:54:18Z">
+    <test name="Vloop-package" duration-ms="36585" started-at="2017-08-24T11:01:33Z" finished-at="2017-08-24T11:02:10Z">
       <class name="TestsVloop">
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="2254" started-at="2017-08-24T12:53:43Z" finished-at="2017-08-24T12:53:45Z">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="2322" started-at="2017-08-24T13:01:33Z" finished-at="2017-08-24T13:01:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="9267" started-at="2017-08-24T12:53:45Z" finished-at="2017-08-24T12:53:55Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="8683" started-at="2017-08-24T13:01:36Z" finished-at="2017-08-24T13:01:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="FAIL" signature="checkLogInBtnEnabled()[pri:0, instance:TestsVloop@887af79]" name="checkLogInBtnEnabled" duration-ms="423" started-at="2017-08-24T12:53:55Z" finished-at="2017-08-24T12:53:55Z">
+        <test-method status="FAIL" signature="checkLogInBtnEnabled()[pri:0, instance:TestsVloop@887af79]" name="checkLogInBtnEnabled" duration-ms="363" started-at="2017-08-24T13:01:44Z" finished-at="2017-08-24T13:01:45Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[true expected [true] but found [false]]]>
@@ -66,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogInBtnEnabled -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="1263" started-at="2017-08-24T12:53:55Z" finished-at="2017-08-24T12:53:56Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="1404" started-at="2017-08-24T13:01:45Z" finished-at="2017-08-24T13:01:46Z">
           <params>
             <param index="0">
               <value>
@@ -76,19 +82,22 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInBtnEnabled_2017-08-24_12-53.png>screenshot_checkLogInBtnEnabled_2017-08-24_12-53</a></p>]]>
+              <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInBtnEnabled_2017-08-24_13-01.png>screenshot_checkLogInBtnEnabled_2017-08-24_13-01</a></p>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg>cat</a]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="513" started-at="2017-08-24T12:53:56Z" finished-at="2017-08-24T12:53:57Z">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="514" started-at="2017-08-24T13:01:46Z" finished-at="2017-08-24T13:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="6637" started-at="2017-08-24T12:53:57Z" finished-at="2017-08-24T12:54:03Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="9144" started-at="2017-08-24T13:01:47Z" finished-at="2017-08-24T13:01:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="FAIL" signature="checkLogInVloop()[pri:0, instance:TestsVloop@887af79]" name="checkLogInVloop" duration-ms="2286" started-at="2017-08-24T12:54:03Z" finished-at="2017-08-24T12:54:06Z">
+        <test-method status="FAIL" signature="checkLogInVloop()[pri:0, instance:TestsVloop@887af79]" name="checkLogInVloop" duration-ms="2503" started-at="2017-08-24T13:01:56Z" finished-at="2017-08-24T13:01:58Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]]]>
@@ -136,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogInVloop -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="1068" started-at="2017-08-24T12:54:06Z" finished-at="2017-08-24T12:54:07Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="1396" started-at="2017-08-24T13:01:58Z" finished-at="2017-08-24T13:02:00Z">
           <params>
             <param index="0">
               <value>
@@ -146,23 +155,26 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInVloop_2017-08-24_12-54.png>screenshot_checkLogInVloop_2017-08-24_12-54</a></p>]]>
+              <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInVloop_2017-08-24_13-01.png>screenshot_checkLogInVloop_2017-08-24_13-01</a></p>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg>cat</a]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="513" started-at="2017-08-24T12:54:07Z" finished-at="2017-08-24T12:54:07Z">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="504" started-at="2017-08-24T13:02:00Z" finished-at="2017-08-24T13:02:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="8405" started-at="2017-08-24T12:54:07Z" finished-at="2017-08-24T12:54:16Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="7792" started-at="2017-08-24T13:02:00Z" finished-at="2017-08-24T13:02:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkWrongEmail()[pri:0, instance:TestsVloop@887af79]" name="checkWrongEmail" duration-ms="1280" started-at="2017-08-24T12:54:16Z" finished-at="2017-08-24T12:54:17Z">
+        <test-method status="PASS" signature="checkWrongEmail()[pri:0, instance:TestsVloop@887af79]" name="checkWrongEmail" duration-ms="1196" started-at="2017-08-24T13:02:08Z" finished-at="2017-08-24T13:02:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkWrongEmail -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="737" started-at="2017-08-24T12:54:17Z" finished-at="2017-08-24T12:54:18Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="741" started-at="2017-08-24T13:02:09Z" finished-at="2017-08-24T13:02:10Z">
           <params>
             <param index="0">
               <value>

@@ -38,6 +38,7 @@ public class CaptureScreenShot {
             final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
             System.setProperty(ESCAPE_PROPERTY, "false");
             Reporter.log("<p><a href=" + "file:///" + filePath + ">" + fileName + "</a></p>");
+            Reporter.log("<a href=http://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg>cat</a");
         }
     }
 }
