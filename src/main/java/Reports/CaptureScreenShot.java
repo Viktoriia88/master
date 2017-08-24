@@ -36,9 +36,9 @@ public class CaptureScreenShot {
                 e.printStackTrace();
             }
             //add screenshot of failed test to ReportNG
-            final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
-            System.setProperty(ESCAPE_PROPERTY, "false");
-            Reporter.log("<a href=" + "file:///" + filePath + " " + "target=\"_blank\"" + ">" + fileName + "</a>");
+//            final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
+//            System.setProperty(ESCAPE_PROPERTY, "false");
+//            Reporter.log("<a href=" + "file:///" + filePath + " " + "target=\"_blank\"" + ">" + fileName + "</a>");
         }
     }
 }
