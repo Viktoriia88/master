@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 34.947 s <<< FAILURE! - in TestSuite
-checkLogInBtnEnabled(TestsVloop)  Time elapsed: 0.419 s  <<< FAILURE!
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 33.992 s <<< FAILURE! - in TestSuite
+checkLogInBtnEnabled(TestsVloop)  Time elapsed: 0.322 s  <<< FAILURE!
 java.lang.AssertionError: true expected [true] but found [false]
 	at TestsVloop.checkLogInBtnEnabled(TestsVloop.java:26)
 
-checkLogInVloop(TestsVloop)  Time elapsed: 2.173 s  <<< FAILURE!
+checkLogInVloop(TestsVloop)  Time elapsed: 2.466 s  <<< FAILURE!
 java.lang.AssertionError: expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]
 	at TestsVloop.checkLogInVloop(TestsVloop.java:19)
 

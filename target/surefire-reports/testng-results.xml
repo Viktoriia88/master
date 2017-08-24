@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInBtnEnabled_2017-08-24_14-18.png target="_blank">screenshot_checkLogInBtnEnabled_2017-08-24_14-18</a></p>]]>
+      <![CDATA[<p><img src=G:/Screen/screenshot_checkLogInBtnEnabled_2017-08-24_15-03.png alt=screenshot_checkLogInBtnEnabled_2017-08-24_15-03></p>]]>
     </line>
     <line>
-      <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInVloop_2017-08-24_14-19.png target="_blank">screenshot_checkLogInVloop_2017-08-24_14-19</a></p>]]>
+      <![CDATA[<p><img src=G:/Screen/screenshot_checkLogInVloop_2017-08-24_15-04.png alt=screenshot_checkLogInVloop_2017-08-24_15-04></p>]]>
     </line>
   </reporter-output>
-  <suite name="Suite1" duration-ms="31253" started-at="2017-08-24T12:18:47Z" finished-at="2017-08-24T12:19:18Z">
+  <suite name="Suite1" duration-ms="30636" started-at="2017-08-24T13:03:44Z" finished-at="2017-08-24T13:04:15Z">
     <groups>
     </groups>
-    <test name="Vloop-package" duration-ms="31253" started-at="2017-08-24T12:18:47Z" finished-at="2017-08-24T12:19:18Z">
+    <test name="Vloop-package" duration-ms="30636" started-at="2017-08-24T13:03:44Z" finished-at="2017-08-24T13:04:15Z">
       <class name="TestsVloop">
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="124" started-at="2017-08-24T14:18:47Z" finished-at="2017-08-24T14:18:47Z">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="129" started-at="2017-08-24T15:03:44Z" finished-at="2017-08-24T15:03:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="8301" started-at="2017-08-24T14:18:47Z" finished-at="2017-08-24T14:18:55Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="7447" started-at="2017-08-24T15:03:45Z" finished-at="2017-08-24T15:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="FAIL" signature="checkLogInBtnEnabled()[pri:0, instance:TestsVloop@887af79]" name="checkLogInBtnEnabled" duration-ms="407" started-at="2017-08-24T14:18:55Z" finished-at="2017-08-24T14:18:56Z">
+        <test-method status="FAIL" signature="checkLogInBtnEnabled()[pri:0, instance:TestsVloop@887af79]" name="checkLogInBtnEnabled" duration-ms="313" started-at="2017-08-24T15:03:52Z" finished-at="2017-08-24T15:03:52Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[true expected [true] but found [false]]]>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogInBtnEnabled -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="1449" started-at="2017-08-24T14:18:56Z" finished-at="2017-08-24T14:18:57Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="1372" started-at="2017-08-24T15:03:52Z" finished-at="2017-08-24T15:03:54Z">
           <params>
             <param index="0">
               <value>
@@ -76,19 +76,19 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInBtnEnabled_2017-08-24_14-18.png target="_blank">screenshot_checkLogInBtnEnabled_2017-08-24_14-18</a></p>]]>
+              <![CDATA[<p><img src=G:/Screen/screenshot_checkLogInBtnEnabled_2017-08-24_15-03.png alt=screenshot_checkLogInBtnEnabled_2017-08-24_15-03></p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="503" started-at="2017-08-24T14:18:57Z" finished-at="2017-08-24T14:18:57Z">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="519" started-at="2017-08-24T15:03:54Z" finished-at="2017-08-24T15:03:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="7522" started-at="2017-08-24T14:18:57Z" finished-at="2017-08-24T14:19:05Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="7448" started-at="2017-08-24T15:03:54Z" finished-at="2017-08-24T15:04:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="FAIL" signature="checkLogInVloop()[pri:0, instance:TestsVloop@887af79]" name="checkLogInVloop" duration-ms="2173" started-at="2017-08-24T14:19:05Z" finished-at="2017-08-24T14:19:07Z">
+        <test-method status="FAIL" signature="checkLogInVloop()[pri:0, instance:TestsVloop@887af79]" name="checkLogInVloop" duration-ms="2465" started-at="2017-08-24T15:04:02Z" finished-at="2017-08-24T15:04:04Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]]]>
@@ -136,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogInVloop -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="1335" started-at="2017-08-24T14:19:07Z" finished-at="2017-08-24T14:19:09Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="1140" started-at="2017-08-24T15:04:04Z" finished-at="2017-08-24T15:04:05Z">
           <params>
             <param index="0">
               <value>
@@ -146,23 +146,23 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[<p><a href=file:///G:/Screen/screenshot_checkLogInVloop_2017-08-24_14-19.png target="_blank">screenshot_checkLogInVloop_2017-08-24_14-19</a></p>]]>
+              <![CDATA[<p><img src=G:/Screen/screenshot_checkLogInVloop_2017-08-24_15-04.png alt=screenshot_checkLogInVloop_2017-08-24_15-04></p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="513" started-at="2017-08-24T14:19:09Z" finished-at="2017-08-24T14:19:09Z">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@887af79]" name="createAndStartService" is-config="true" duration-ms="513" started-at="2017-08-24T15:04:05Z" finished-at="2017-08-24T15:04:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="6775" started-at="2017-08-24T14:19:09Z" finished-at="2017-08-24T14:19:16Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@887af79]" name="createDriver" is-config="true" duration-ms="7261" started-at="2017-08-24T15:04:06Z" finished-at="2017-08-24T15:04:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkWrongEmail()[pri:0, instance:TestsVloop@887af79]" name="checkWrongEmail" duration-ms="1388" started-at="2017-08-24T14:19:16Z" finished-at="2017-08-24T14:19:17Z">
+        <test-method status="PASS" signature="checkWrongEmail()[pri:0, instance:TestsVloop@887af79]" name="checkWrongEmail" duration-ms="1184" started-at="2017-08-24T15:04:13Z" finished-at="2017-08-24T15:04:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkWrongEmail -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="738" started-at="2017-08-24T14:19:17Z" finished-at="2017-08-24T14:19:18Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@887af79]" name="tearDown" is-config="true" duration-ms="820" started-at="2017-08-24T15:04:14Z" finished-at="2017-08-24T15:04:15Z">
           <params>
             <param index="0">
               <value>

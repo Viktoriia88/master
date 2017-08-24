@@ -1,6 +1,7 @@
 package Reports;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.regexp.RE;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -37,8 +38,8 @@ public class CaptureScreenShot {
             //add screenshot of failed test to ReportNG
             final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
             System.setProperty(ESCAPE_PROPERTY, "false");
-            //Reporter.log("<p><a href=" + "file:///" + filePath + ">" + fileName + "</a></p>");
-            Reporter.log("<p><a href=" + "file:///" + filePath + " " + "target=\"_blank\"" + ">" + fileName + "</a></p>");
+            Reporter.log("<p><img src=" + filePath + " " + "alt=" + fileName + "></p>");
+            //Reporter.log("<p><a href=" + "file:///" + filePath + " " + "target=\"_blank\"" + ">" + fileName + "</a></p>");
         }
     }
 }

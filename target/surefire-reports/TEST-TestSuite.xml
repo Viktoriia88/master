@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="34.947" tests="3" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="33.992" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Progra~1\Java\jdk1.8.0_111\jre\bin"/>
@@ -64,38 +64,38 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="checkLogInBtnEnabled" classname="TestsVloop" time="0.419">
+  <testcase name="checkLogInBtnEnabled" classname="TestsVloop" time="0.322">
     <failure message="true expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: true expected [true] but found [false]
 	at TestsVloop.checkLogInBtnEnabled(TestsVloop.java:26)
 </failure>
-    <system-out><![CDATA[2017-08-24 14:18:49,157 INFO  - Navigate to http://alpha.vloop.io/sign_in
-2017-08-24 14:18:55,971 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+    <system-out><![CDATA[2017-08-24 15:03:46,852 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:03:52,809 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 12851
+    <system-err><![CDATA[Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 39557
 Only local connections are allowed.
-авг 24, 2017 2:18:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг 24, 2017 3:03:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-авг 24, 2017 2:18:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг 24, 2017 3:03:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="checkLogInVloop" classname="TestsVloop" time="2.173">
+  <testcase name="checkLogInVloop" classname="TestsVloop" time="2.466">
     <failure message="expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]" type="java.lang.AssertionError">java.lang.AssertionError: expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]
 	at TestsVloop.checkLogInVloop(TestsVloop.java:19)
 </failure>
     <system-out><![CDATA[Test result [TestResult name=checkLogInBtnEnabled status=FAILURE method=TestsVloop.checkLogInBtnEnabled()[pri:0, instance:TestsVloop@887af79] output={null}]
-2017-08-24 14:18:59,406 INFO  - Navigate to http://alpha.vloop.io/sign_in
-2017-08-24 14:19:05,747 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
-2017-08-24 14:19:05,884 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
-2017-08-24 14:19:05,985 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:03:56,124 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:04:02,417 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:04:02,552 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:04:02,653 INFO  - Element is found By.id: user_login clicked successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 19613
+    <system-err><![CDATA[Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 27313
 Only local connections are allowed.
-авг 24, 2017 2:18:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг 24, 2017 3:03:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-авг 24, 2017 2:18:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг 24, 2017 3:03:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="checkWrongEmail" classname="TestsVloop" time="1.388"/>
+  <testcase name="checkWrongEmail" classname="TestsVloop" time="1.183"/>
 </testsuite>
