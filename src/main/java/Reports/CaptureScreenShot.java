@@ -28,8 +28,7 @@ public class CaptureScreenShot {
             Date currentDate = new Date();
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd_HH-mm", Locale.ENGLISH);
             String fileName = "screenshot_" + result.getName() + "_" + formatter.format(currentDate);
-            //String filePath = "G:/Screen/" + fileName + ".png";
-            String filePath = "target/screens" + fileName + ".png";
+            String filePath = "G:/Screen/" + fileName + ".png";
             try {
                 FileUtils.copyFile(tmpFile, new File(filePath));
             } catch (IOException e) {
@@ -38,8 +37,7 @@ public class CaptureScreenShot {
             //add screenshot of failed test to ReportNG
             final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
             System.setProperty(ESCAPE_PROPERTY, "false");
-            //Reporter.log("<p><a href=" + "file:///" + filePath + ">" + fileName + "</a></p>");
-            Reporter.log("<p><a href=" + filePath + ">" + fileName + "</a></p>");
+            Reporter.log("<p><a href=" + "file:///" + filePath + ">" + fileName + "</a></p>");
         }
     }
 }
