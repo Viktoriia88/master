@@ -138,3 +138,53 @@
 2017-08-24 15:04:13,841 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp@gmail.com
 2017-08-24 15:04:14,017 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
 2017-08-24 15:04:14,197 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:08:55,943 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:09:02,573 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:09:05,904 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:09:12,010 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:09:12,199 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:09:12,306 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:09:17,434 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:09:23,371 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp@gmail.com
+2017-08-24 15:09:23,533 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:09:23,637 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:39:06,408 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:39:14,178 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:39:17,857 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:39:24,165 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:39:24,312 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:39:24,430 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:39:30,005 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:39:36,729 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp@gmail.com
+2017-08-24 15:39:36,909 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:39:37,010 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:41:08,129 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:41:14,713 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:41:17,974 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:41:24,227 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:41:24,368 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:41:24,470 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:41:29,861 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:41:36,436 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp@gmail.com
+2017-08-24 15:41:36,594 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:41:36,694 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:42:46,650 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:42:53,024 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:42:56,160 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:43:02,342 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:43:02,494 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:43:02,599 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:43:07,812 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:43:15,429 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp@gmail.com
+2017-08-24 15:43:15,565 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:43:15,700 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:47:13,112 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:47:19,735 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:47:23,178 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:47:29,887 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+2017-08-24 15:47:30,024 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:47:30,176 INFO  - Element is found By.id: user_login clicked successfully
+2017-08-24 15:47:34,829 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-24 15:47:41,356 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp@gmail.com
+2017-08-24 15:47:41,620 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
+2017-08-24 15:47:41,737 INFO  - Element is found By.id: user_login clicked successfully

@@ -4,9 +4,9 @@
            failures="2"
            errors="0"
            skipped="0"
-           time="3,962">
+           time="3,846">
   <properties />
-            <testcase name="checkLogInVloop" time="2,465" classname="TestsVloop">
+            <testcase name="checkLogInVloop" time="2,136" classname="TestsVloop">
                 <failure type="java.lang.AssertionError"
                   message="expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]"
               >
@@ -50,7 +50,7 @@
       </failure>
 
           </testcase>
-            <testcase name="checkLogInBtnEnabled" time="0,313" classname="TestsVloop">
+            <testcase name="checkLogInBtnEnabled" time="0,335" classname="TestsVloop">
                 <failure type="java.lang.AssertionError"
                   message="true expected [true] but found [false]"
               >
@@ -93,6 +93,6 @@
           </testcase>
   
   
-            <testcase name="checkWrongEmail" time="1,184" classname="TestsVloop" />
+            <testcase name="checkWrongEmail" time="1,375" classname="TestsVloop" />
       
 </testsuite>
