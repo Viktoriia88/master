@@ -39,7 +39,7 @@ public class CaptureScreenShot {
             final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
             System.setProperty(ESCAPE_PROPERTY, "false");
             //Reporter.log("<p><a href=" + "file:///" + filePath + ">" + fileName + "</a></p>");
-            //Reporter.log("<p><a href=" + "https://github.com/Viktoriia88/master/tree/master/" + filePath + ">" + fileName + "</a></p>");
+            Reporter.log("<p><a href=" + "https://github.com/Viktoriia88/master/tree/master/" + filePath + ">" + fileName + "</a></p>");
         }
     }
 }
