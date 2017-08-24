@@ -16,7 +16,7 @@ public class TestsVloop extends Setting{
         signIn.logIn("vloopapp15@gmail.com", "12345678vloop");
         WebElement el = (new WebDriverWait(driver, 30))
                 .until(ExpectedConditions.presenceOfElementLocated(By.id("add_video")));
-        Assert.assertEquals(driver.getCurrentUrl(), "http://alpha.vloop.io/hme/");
+        Assert.assertEquals(driver.getCurrentUrl(), "http://alpha.vloop.io/home/");
     }
 
     @Test
