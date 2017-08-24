@@ -37,7 +37,7 @@ public class CaptureScreenShot {
             //add screenshot of failed test to ReportNG
             final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
             System.setProperty(ESCAPE_PROPERTY, "false");
-            Reporter.log("<a href=" + "file:///" + filePath + ">" + fileName + "</a>");
+            Reporter.log("<p><a href=" + "file:///" + filePath + ">" + fileName + "</a></p>");
         }
     }
 }

@@ -7,6 +7,7 @@
         <methods>
           <include name="createAndStartService"/>
           <include name="createDriver"/>
+          <include name="checkLogInVloop"/>
           <include name="tearDown"/>
           <include name="checkLogInBtnEnabled"/>
         </methods>

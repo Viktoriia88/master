@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,6 +105,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestsVloop" hash-for-method="checkLogInBtnEnabled">checkLogInBtnEnabled</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestsVloop" hash-for-method="checkLogInVloop">checkLogInVloop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content failed suite-Suite1 -->
                   </li>
                   <li>
@@ -114,11 +119,6 @@
                       <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
                     </span>
                     <div class="method-list-content passed suite-Suite1">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestsVloop" hash-for-method="checkLogInVloop">checkLogInVloop</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestsVloop" hash-for-method="checkWrongEmail">checkWrongEmail</a> <!-- method navigator-link -->
@@ -153,6 +153,17 @@
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkLogInVloop">
+                  </a> <!-- checkLogInVloop -->
+                  <span class="method-name">checkLogInVloop</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]
+	at TestsVloop.checkLogInVloop(TestsVloop.java:19)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite1-class-failed -->
           <div class="suite-Suite1-class-passed">
@@ -161,13 +172,6 @@
               <span class="class-name">TestsVloop</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkLogInVloop">
-                  </a> <!-- checkLogInVloop -->
-                  <span class="method-name">checkLogInVloop</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="checkWrongEmail">
@@ -233,15 +237,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkLogInVloop')
 data.setCell(0, 2, 'TestsVloop')
-data.setCell(0, 3, 2112);
+data.setCell(0, 3, 2286);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'checkWrongEmail')
 data.setCell(1, 2, 'TestsVloop')
-data.setCell(1, 3, 1098);
+data.setCell(1, 3, 1280);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkLogInBtnEnabled')
 data.setCell(2, 2, 'TestsVloop')
-data.setCell(2, 3, 407);
+data.setCell(2, 3, 423);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
@@ -279,49 +283,51 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">createDriver</span>
-                <span class="method-start">133 ms</span>
+                <span class="method-start">2254 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkLogInBtnEnabled</span>
-                <span class="method-start">7661 ms</span>
+                <span class="method-start">11521 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=checkLogInBtnEnabled status=FAILURE method=TestsVloop.checkLogInBtnEnabled()[pri:0,...)</span>
-                <span class="method-start">8076 ms</span>
+                <span class="method-start">11951 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">createAndStartService</span>
-                <span class="method-start">9327 ms</span>
+                <span class="method-start">13215 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">createDriver</span>
-                <span class="method-start">9841 ms</span>
+                <span class="method-start">13728 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkLogInVloop</span>
-                <span class="method-start">17534 ms</span>
+                <span class="method-start">20366 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=checkLogInVloop status=SUCCESS method=TestsVloop.checkLogInVloop()[pri:0, instance:...)</span>
-                <span class="method-start">19646 ms</span>
+                <span class="method-name">tearDown([TestResult name=checkLogInVloop status=FAILURE method=TestsVloop.checkLogInVloop()[pri:0, instance:...)</span>
+                <span class="method-start">22652 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">createAndStartService</span>
-                <span class="method-start">20396 ms</span>
+                <span class="method-start">23721 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">createDriver</span>
-                <span class="method-start">20910 ms</span>
+                <span class="method-start">24234 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkWrongEmail</span>
-                <span class="method-start">28059 ms</span>
+                <span class="method-start">32639 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=checkWrongEmail status=SUCCESS method=TestsVloop.checkWrongEmail()[pri:0, instance:...)</span>
-                <span class="method-start">29157 ms</span>
+                <span class="method-start">33920 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
