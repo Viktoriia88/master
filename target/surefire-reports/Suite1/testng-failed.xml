@@ -6,11 +6,9 @@
       <class name="TestsVloop">
         <methods>
           <include name="createAndStartService"/>
-          <include name="checkWrongEmail"/>
           <include name="createDriver"/>
           <include name="checkLogInVloop"/>
-          <include name="quitDriver"/>
-          <include name="serviceStop"/>
+          <include name="tearDown"/>
           <include name="checkLogInBtnEnabled"/>
         </methods>
       </class> <!-- TestsVloop -->

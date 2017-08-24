@@ -1,9 +1,7 @@
 package Reports;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
 public class LoggingEventListener implements WebDriverEventListener {
@@ -37,6 +35,14 @@ public class LoggingEventListener implements WebDriverEventListener {
 
     }
 
+    public void beforeNavigateRefresh(WebDriver webDriver) {
+
+    }
+
+    public void afterNavigateRefresh(WebDriver webDriver) {
+
+    }
+
     public void beforeFindBy(By by, WebElement webElement, WebDriver driver) {
         findBy = by;
 
@@ -54,14 +60,15 @@ public class LoggingEventListener implements WebDriverEventListener {
         logger.info("Element is found " + findBy + " clicked successfully");
     }
 
-    public void beforeChangeValueOf(WebElement el, WebDriver driver) {
+    public void beforeChangeValueOf(WebElement el, WebDriver webDriver, CharSequence[] charSequences) {
         originalValue = el.getAttribute("value");
         if(originalValue == null){
             originalValue = el.getText();
         }
+
     }
 
-    public void afterChangeValueOf(WebElement el, WebDriver driver) {
+    public void afterChangeValueOf(WebElement el, WebDriver webDriver, CharSequence[] charSequences) {
         String newValue = el.getAttribute("value");
         if (newValue != originalValue){
             logger.info("Element " + findBy + " is changed from original value" + originalValue + " to " + newValue);

@@ -1,6 +1,5 @@
 import Pages.SignIn;
 import Setting.Setting;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -17,14 +16,14 @@ public class TestsVloop extends Setting{
         signIn.logIn("vloopapp15@gmail.com", "12345678vloop");
         WebElement el = (new WebDriverWait(driver, 30))
                 .until(ExpectedConditions.presenceOfElementLocated(By.id("add_video")));
-        Assert.assertEquals(driver.getCurrentUrl(), "http://alpha.vloop.io/home/");
+        Assert.assertEquals(driver.getCurrentUrl(), "http://alpha.vloop.io/hme/");
     }
 
     @Test
     public void checkLogInBtnEnabled(){
         SignIn signIn = new SignIn(driver);
         signIn.enterEmail("vloopapp15@gmail.com");
-        Assert.assertFalse( signIn.isLogInBtnEnabled(), String.valueOf(false));
+        Assert.assertTrue(signIn.isLogInBtnEnabled(), String.valueOf(true));
     }
 
     @Test
