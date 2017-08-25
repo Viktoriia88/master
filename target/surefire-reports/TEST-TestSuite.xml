@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="35.389" tests="3" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="33.695" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Progra~1\Java\jdk1.8.0_111\jre\bin"/>
@@ -64,38 +64,21 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="checkLogInBtnEnabled" classname="TestsVloop" time="0.343">
+  <testcase name="checkLogInBtnEnabled" classname="TestsVloop" time="0.385">
     <failure message="true expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: true expected [true] but found [false]
 	at TestsVloop.checkLogInBtnEnabled(TestsVloop.java:26)
 </failure>
-    <system-out><![CDATA[2017-08-24 15:47:13,112 INFO  - Navigate to http://alpha.vloop.io/sign_in
-2017-08-24 15:47:19,735 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
+    <system-out><![CDATA[2017-08-25 13:10:09,707 INFO  - Navigate to http://alpha.vloop.io/sign_in
+2017-08-25 13:10:16,625 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 4651
+    <system-err><![CDATA[Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 41065
 Only local connections are allowed.
-авг 24, 2017 3:47:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг 25, 2017 1:10:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-авг 24, 2017 3:47:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+авг 25, 2017 1:10:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="checkLogInVloop" classname="TestsVloop" time="2.137">
-    <failure message="expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]" type="java.lang.AssertionError">java.lang.AssertionError: expected [http://alpha.vloop.io/hme/] but found [http://alpha.vloop.io/home/]
-	at TestsVloop.checkLogInVloop(TestsVloop.java:19)
-</failure>
-    <system-out><![CDATA[Test result [TestResult name=checkLogInBtnEnabled status=FAILURE method=TestsVloop.checkLogInBtnEnabled()[pri:0, instance:TestsVloop@887af79] output={null}]
-2017-08-24 15:47:23,178 INFO  - Navigate to http://alpha.vloop.io/sign_in
-2017-08-24 15:47:29,887 INFO  - Element By.cssSelector: #user_email is changed from original value to vloopapp15@gmail.com
-2017-08-24 15:47:30,024 INFO  - Element By.id: user_password is changed from original value to 12345678vloop
-2017-08-24 15:47:30,176 INFO  - Element is found By.id: user_login clicked successfully
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 2347
-Only local connections are allowed.
-авг 24, 2017 3:47:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
-авг 24, 2017 3:47:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="checkWrongEmail" classname="TestsVloop" time="1.375"/>
+  <testcase name="checkLogInVloop" classname="TestsVloop" time="1.993"/>
+  <testcase name="checkWrongEmail" classname="TestsVloop" time="1.051"/>
 </testsuite>

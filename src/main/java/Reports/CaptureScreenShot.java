@@ -1,6 +1,7 @@
 package Reports;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
 import org.apache.regexp.RE;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -17,6 +18,7 @@ import java.util.Locale;
 public class CaptureScreenShot {
     
     WebDriver driver;
+    private final Logger logger = Logger.getLogger(this.getClass().toString());
 
     public CaptureScreenShot(WebDriver driver){
         this.driver = driver;
@@ -24,7 +26,7 @@ public class CaptureScreenShot {
 
     public void  takeScreenshot(ITestResult result){
         System.out.println("Test result " + result);
-        if (result.getStatus() == ITestResult.FAILURE){
+        if (result.getStatus() == ITestResult.FAILURE) {
             File tmpFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             Date currentDate = new Date();
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd_HH-mm", Locale.ENGLISH);
@@ -39,6 +41,7 @@ public class CaptureScreenShot {
             final String ESCAPE_PROPERTY = "org.uncommons.reportng.escape-output";
             System.setProperty(ESCAPE_PROPERTY, "false");
             Reporter.log("<a href=" + "file:///" + filePath + " " + "target=\"_blank\"" + ">" + fileName + "</a>");
+            logger.info(filePath);
         }
     }
 }

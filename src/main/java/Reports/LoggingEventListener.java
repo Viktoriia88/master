@@ -80,7 +80,7 @@ public class LoggingEventListener implements WebDriverEventListener {
     }
 
     public void afterScript(String s, WebDriver driver) {
-
+     
     }
 
     public void onException(Throwable throwable, WebDriver driver) {
