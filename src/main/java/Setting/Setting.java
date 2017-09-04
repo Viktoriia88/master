@@ -14,11 +14,12 @@ import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class Setting {
 
     private static ChromeDriverService service;
-    protected WebDriver driver;
+    protected static WebDriver driver;
     private static final WebDriverEventListener eventListener = new LoggingEventListener();
 
     @BeforeMethod
@@ -34,6 +35,8 @@ public class Setting {
     public void createDriver() {
         driver = new EventFiringWebDriver(new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome())).register(eventListener);
         driver.get("http://alpha.vloop.io/sign_in");
+        driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
     }
 
     @AfterMethod
@@ -43,5 +46,14 @@ public class Setting {
         driver.quit();
         service.stop();
     }
+
+    public static void sleep(int time){
+        try {
+            TimeUnit.SECONDS.sleep(time);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 }

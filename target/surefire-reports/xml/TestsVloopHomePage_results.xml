@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Vloop-package"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17,483">
+  <properties />
+  
+  
+            <testcase name="checkDeletingFolder" time="4,694" classname="TestsVloopHomePage" />
+                <testcase name="checkEditingFolder" time="5,658" classname="TestsVloopHomePage" />
+                <testcase name="checkFileUploading" time="4,510" classname="TestsVloopHomePage" />
+                <testcase name="checkNewFolderIsAdded" time="2,621" classname="TestsVloopHomePage" />
+      
+</testsuite>

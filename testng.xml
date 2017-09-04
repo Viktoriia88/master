@@ -3,7 +3,8 @@
 <suite name="Suite1" verbose="1">
     <test name="Vloop-package" >
         <classes>
-            <class name="TestsVloop" />
+            <class name="TestsVloopHomePage" />
+            <class name="TestsVloop"></class>
         </classes>
     </test>
 </suite>

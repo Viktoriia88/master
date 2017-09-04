@@ -1,3 +1,4 @@
+Pages\Home.class
 Reports\CaptureScreenShot.class
 Pages\SignIn.class
 Reports\LoggingEventListener.class
