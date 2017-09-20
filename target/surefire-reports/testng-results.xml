@@ -1,173 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="107282" started-at="2017-09-04T11:07:09Z" finished-at="2017-09-04T11:08:56Z">
+  <suite name="Suite1" duration-ms="115412" started-at="2017-09-13T11:21:43Z" finished-at="2017-09-13T11:23:38Z">
     <groups>
     </groups>
-    <test name="Vloop-package" duration-ms="107282" started-at="2017-09-04T11:07:09Z" finished-at="2017-09-04T11:08:56Z">
-      <class name="TestsVloop">
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@627551fb]" name="createAndStartService" is-config="true" duration-ms="512" started-at="2017-09-04T13:08:08Z" finished-at="2017-09-04T13:08:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@627551fb]" name="createDriver" is-config="true" duration-ms="8261" started-at="2017-09-04T13:08:08Z" finished-at="2017-09-04T13:08:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkContactUsLinkIsClickable()[pri:0, instance:TestsVloop@627551fb]" name="checkContactUsLinkIsClickable" duration-ms="370" started-at="2017-09-04T13:08:17Z" finished-at="2017-09-04T13:08:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkContactUsLinkIsClickable -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@627551fb]" name="tearDown" is-config="true" duration-ms="738" started-at="2017-09-04T13:08:17Z" finished-at="2017-09-04T13:08:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkContactUsLinkIsClickable status=SUCCESS method=TestsVloop.checkContactUsLinkIsClickable()[pri:0, instance:TestsVloop@627551fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@627551fb]" name="createAndStartService" is-config="true" duration-ms="517" started-at="2017-09-04T13:08:18Z" finished-at="2017-09-04T13:08:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@627551fb]" name="createDriver" is-config="true" duration-ms="7615" started-at="2017-09-04T13:08:18Z" finished-at="2017-09-04T13:08:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkLogInBtnEnabled()[pri:0, instance:TestsVloop@627551fb]" name="checkLogInBtnEnabled" duration-ms="320" started-at="2017-09-04T13:08:26Z" finished-at="2017-09-04T13:08:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogInBtnEnabled -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@627551fb]" name="tearDown" is-config="true" duration-ms="744" started-at="2017-09-04T13:08:26Z" finished-at="2017-09-04T13:08:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkLogInBtnEnabled status=SUCCESS method=TestsVloop.checkLogInBtnEnabled()[pri:0, instance:TestsVloop@627551fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@627551fb]" name="createAndStartService" is-config="true" duration-ms="515" started-at="2017-09-04T13:08:27Z" finished-at="2017-09-04T13:08:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@627551fb]" name="createDriver" is-config="true" duration-ms="7209" started-at="2017-09-04T13:08:27Z" finished-at="2017-09-04T13:08:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkLogInVloop()[pri:0, instance:TestsVloop@627551fb]" name="checkLogInVloop" duration-ms="2133" started-at="2017-09-04T13:08:35Z" finished-at="2017-09-04T13:08:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkLogInVloop -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@627551fb]" name="tearDown" is-config="true" duration-ms="823" started-at="2017-09-04T13:08:37Z" finished-at="2017-09-04T13:08:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkLogInVloop status=SUCCESS method=TestsVloop.checkLogInVloop()[pri:0, instance:TestsVloop@627551fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@627551fb]" name="createAndStartService" is-config="true" duration-ms="514" started-at="2017-09-04T13:08:38Z" finished-at="2017-09-04T13:08:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@627551fb]" name="createDriver" is-config="true" duration-ms="7326" started-at="2017-09-04T13:08:38Z" finished-at="2017-09-04T13:08:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkSignUpLinkIsClickable()[pri:0, instance:TestsVloop@627551fb]" name="checkSignUpLinkIsClickable" duration-ms="321" started-at="2017-09-04T13:08:45Z" finished-at="2017-09-04T13:08:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkSignUpLinkIsClickable -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@627551fb]" name="tearDown" is-config="true" duration-ms="799" started-at="2017-09-04T13:08:46Z" finished-at="2017-09-04T13:08:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkSignUpLinkIsClickable status=SUCCESS method=TestsVloop.checkSignUpLinkIsClickable()[pri:0, instance:TestsVloop@627551fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloop@627551fb]" name="createAndStartService" is-config="true" duration-ms="512" started-at="2017-09-04T13:08:47Z" finished-at="2017-09-04T13:08:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@627551fb]" name="createDriver" is-config="true" duration-ms="7106" started-at="2017-09-04T13:08:47Z" finished-at="2017-09-04T13:08:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkWrongEmail()[pri:0, instance:TestsVloop@627551fb]" name="checkWrongEmail" duration-ms="1272" started-at="2017-09-04T13:08:54Z" finished-at="2017-09-04T13:08:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkWrongEmail -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloop@627551fb]" name="tearDown" is-config="true" duration-ms="774" started-at="2017-09-04T13:08:55Z" finished-at="2017-09-04T13:08:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkWrongEmail status=SUCCESS method=TestsVloop.checkWrongEmail()[pri:0, instance:TestsVloop@627551fb] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestsVloop -->
+    <test name="Vloop-package" duration-ms="115412" started-at="2017-09-13T11:21:43Z" finished-at="2017-09-13T11:23:38Z">
       <class name="TestsVloopHomePage">
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createAndStartService" is-config="true" duration-ms="122" started-at="2017-09-04T13:07:09Z" finished-at="2017-09-04T13:07:09Z">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createAndStartService" is-config="true" duration-ms="189" started-at="2017-09-13T13:21:33Z" finished-at="2017-09-13T13:21:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createDriver" is-config="true" duration-ms="7350" started-at="2017-09-04T13:07:09Z" finished-at="2017-09-04T13:07:16Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createDriver" is-config="true" duration-ms="9893" started-at="2017-09-13T13:21:33Z" finished-at="2017-09-13T13:21:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="logIn()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="logIn" is-config="true" duration-ms="2030" started-at="2017-09-04T13:07:16Z" finished-at="2017-09-04T13:07:18Z">
+        <test-method status="PASS" signature="logIn()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="logIn" is-config="true" duration-ms="3950" started-at="2017-09-13T13:21:43Z" finished-at="2017-09-13T13:21:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="checkDeletingFolder()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkDeletingFolder" duration-ms="4694" started-at="2017-09-04T13:07:18Z" finished-at="2017-09-04T13:07:23Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="cleanHomePage" is-config="true" duration-ms="4712" started-at="2017-09-13T13:21:47Z" finished-at="2017-09-13T13:21:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkDeletingFolder -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="tearDown" is-config="true" duration-ms="887" started-at="2017-09-04T13:07:23Z" finished-at="2017-09-04T13:07:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkDeletingFolder status=SUCCESS method=TestsVloopHomePage.checkDeletingFolder()[pri:0, instance:TestsVloopHomePage@3701eaf6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createAndStartService" is-config="true" duration-ms="514" started-at="2017-09-04T13:07:24Z" finished-at="2017-09-04T13:07:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createDriver" is-config="true" duration-ms="6906" started-at="2017-09-04T13:07:25Z" finished-at="2017-09-04T13:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="logIn()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="logIn" is-config="true" duration-ms="2159" started-at="2017-09-04T13:07:32Z" finished-at="2017-09-04T13:07:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="checkEditingFolder()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkEditingFolder" duration-ms="5658" started-at="2017-09-04T13:07:34Z" finished-at="2017-09-04T13:07:39Z">
+        </test-method> <!-- cleanHomePage -->
+        <test-method status="PASS" signature="checkEditingFolder()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkEditingFolder" duration-ms="5537" started-at="2017-09-13T13:21:52Z" finished-at="2017-09-13T13:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEditingFolder -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="tearDown" is-config="true" duration-ms="739" started-at="2017-09-04T13:07:39Z" finished-at="2017-09-04T13:07:40Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="takeScreenShot" is-config="true" duration-ms="3" started-at="2017-09-13T13:21:57Z" finished-at="2017-09-13T13:21:57Z">
           <params>
             <param index="0">
               <value>
@@ -177,24 +37,39 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createAndStartService" is-config="true" duration-ms="516" started-at="2017-09-04T13:07:40Z" finished-at="2017-09-04T13:07:41Z">
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="cleanHomePage" is-config="true" duration-ms="2561" started-at="2017-09-13T13:21:57Z" finished-at="2017-09-13T13:22:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createDriver" is-config="true" duration-ms="6887" started-at="2017-09-04T13:07:41Z" finished-at="2017-09-04T13:07:47Z">
+        </test-method> <!-- cleanHomePage -->
+        <test-method status="PASS" signature="checkFileEditing()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkFileEditing" duration-ms="18129" started-at="2017-09-13T13:22:00Z" finished-at="2017-09-13T13:22:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="logIn()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="logIn" is-config="true" duration-ms="2293" started-at="2017-09-04T13:07:47Z" finished-at="2017-09-04T13:07:50Z">
+        </test-method> <!-- checkFileEditing -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-13T13:22:18Z" finished-at="2017-09-13T13:22:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkFileEditing status=SUCCESS method=TestsVloopHomePage.checkFileEditing()[pri:0, instance:TestsVloopHomePage@3701eaf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="checkFileUploading()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkFileUploading" duration-ms="4510" started-at="2017-09-04T13:07:50Z" finished-at="2017-09-04T13:07:54Z">
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="cleanHomePage" is-config="true" duration-ms="4767" started-at="2017-09-13T13:22:18Z" finished-at="2017-09-13T13:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanHomePage -->
+        <test-method status="PASS" signature="checkFileUploading()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkFileUploading" duration-ms="14676" started-at="2017-09-13T13:22:23Z" finished-at="2017-09-13T13:22:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFileUploading -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="tearDown" is-config="true" duration-ms="742" started-at="2017-09-04T13:07:54Z" finished-at="2017-09-04T13:07:55Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="cleanHomePage" is-config="true" duration-ms="4560" started-at="2017-09-13T13:22:37Z" finished-at="2017-09-13T13:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanHomePage -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-13T13:22:37Z" finished-at="2017-09-13T13:22:37Z">
           <params>
             <param index="0">
               <value>
@@ -204,24 +79,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createAndStartService" is-config="true" duration-ms="514" started-at="2017-09-04T13:07:55Z" finished-at="2017-09-04T13:07:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="createDriver" is-config="true" duration-ms="6433" started-at="2017-09-04T13:07:56Z" finished-at="2017-09-04T13:08:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="logIn()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="logIn" is-config="true" duration-ms="2495" started-at="2017-09-04T13:08:02Z" finished-at="2017-09-04T13:08:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logIn -->
-        <test-method status="PASS" signature="checkNewFolderIsAdded()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkNewFolderIsAdded" duration-ms="2621" started-at="2017-09-04T13:08:04Z" finished-at="2017-09-04T13:08:07Z">
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="checkNewFolderIsAdded()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkNewFolderIsAdded" duration-ms="2527" started-at="2017-09-13T13:22:42Z" finished-at="2017-09-13T13:22:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNewFolderIsAdded -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="tearDown" is-config="true" duration-ms="803" started-at="2017-09-04T13:08:07Z" finished-at="2017-09-04T13:08:08Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-13T13:22:44Z" finished-at="2017-09-13T13:22:44Z">
           <params>
             <param index="0">
               <value>
@@ -229,6 +92,86 @@
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="cleanHomePage" is-config="true" duration-ms="2724" started-at="2017-09-13T13:22:44Z" finished-at="2017-09-13T13:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanHomePage -->
+        <test-method status="PASS" signature="checkVdEditing()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkVdEditing" duration-ms="9274" started-at="2017-09-13T13:22:47Z" finished-at="2017-09-13T13:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVdEditing -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-13T13:22:56Z" finished-at="2017-09-13T13:22:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkVdEditing status=SUCCESS method=TestsVloopHomePage.checkVdEditing()[pri:0, instance:TestsVloopHomePage@3701eaf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="cleanHomePage" is-config="true" duration-ms="4822" started-at="2017-09-13T13:22:56Z" finished-at="2017-09-13T13:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanHomePage -->
+        <test-method status="PASS" signature="checkVdUploadingFromDrBox()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkVdUploadingFromDrBox" duration-ms="11266" started-at="2017-09-13T13:23:01Z" finished-at="2017-09-13T13:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVdUploadingFromDrBox -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-13T13:23:12Z" finished-at="2017-09-13T13:23:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkVdUploadingFromDrBox status=SUCCESS method=TestsVloopHomePage.checkVdUploadingFromDrBox()[pri:0, instance:TestsVloopHomePage@3701eaf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="cleanHomePage" is-config="true" duration-ms="4759" started-at="2017-09-13T13:23:12Z" finished-at="2017-09-13T13:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanHomePage -->
+        <test-method status="PASS" signature="checkVdUploadingPC()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkVdUploadingPC" duration-ms="12215" started-at="2017-09-13T13:23:17Z" finished-at="2017-09-13T13:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVdUploadingPC -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-13T13:23:29Z" finished-at="2017-09-13T13:23:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkVdUploadingPC status=SUCCESS method=TestsVloopHomePage.checkVdUploadingPC()[pri:0, instance:TestsVloopHomePage@3701eaf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="cleanHomePage" is-config="true" duration-ms="4792" started-at="2017-09-13T13:23:29Z" finished-at="2017-09-13T13:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanHomePage -->
+        <test-method status="PASS" signature="checkVdUploadingYouTube()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="checkVdUploadingYouTube" duration-ms="4120" started-at="2017-09-13T13:23:34Z" finished-at="2017-09-13T13:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkVdUploadingYouTube -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-13T13:23:38Z" finished-at="2017-09-13T13:23:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkVdUploadingYouTube status=SUCCESS method=TestsVloopHomePage.checkVdUploadingYouTube()[pri:0, instance:TestsVloopHomePage@3701eaf6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@3701eaf6]" name="tearDown" is-config="true" duration-ms="1081" started-at="2017-09-13T13:23:38Z" finished-at="2017-09-13T13:23:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

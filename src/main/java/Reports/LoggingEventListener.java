@@ -71,7 +71,7 @@ public class LoggingEventListener implements WebDriverEventListener {
     public void afterChangeValueOf(WebElement el, WebDriver webDriver, CharSequence[] charSequences) {
         String newValue = el.getAttribute("value");
         if (newValue != originalValue){
-            logger.info("Element " + findBy + " is changed from original value" + originalValue + " to " + newValue);
+            logger.info("Element " + findBy + " is changed from original value " + originalValue + " to " + newValue);
         }
     }
 

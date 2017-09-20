@@ -26,12 +26,13 @@ public class CaptureScreenShot {
 
     public void  takeScreenshot(ITestResult result){
         System.out.println("Test result " + result);
+        logger.info("TEST IS: " + result.getMethod().getMethodName().toString());
         if (result.getStatus() == ITestResult.FAILURE) {
             File tmpFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             Date currentDate = new Date();
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd_HH-mm", Locale.ENGLISH);
             String fileName = "screenshot_" + result.getName() + "_" + formatter.format(currentDate);
-            String filePath = "G:/Screen/" + fileName + ".png";
+            String filePath = "C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/" + fileName + ".png";
             try {
                 FileUtils.copyFile(tmpFile, new File(filePath));
             } catch (IOException e) {

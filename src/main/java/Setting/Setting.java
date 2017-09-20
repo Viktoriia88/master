@@ -2,15 +2,18 @@ package Setting;
 
 import Reports.CaptureScreenShot;
 import Reports.LoggingEventListener;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,6 +24,15 @@ public class Setting {
     private static ChromeDriverService service;
     protected static WebDriver driver;
     private static final WebDriverEventListener eventListener = new LoggingEventListener();
+
+    @BeforeSuite
+    public void deleteScreenDirection(){
+        try {
+            FileUtils.deleteDirectory(new File("C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     @BeforeMethod
     public static void createAndStartService() throws IOException {
@@ -34,15 +46,19 @@ public class Setting {
     @BeforeMethod
     public void createDriver() {
         driver = new EventFiringWebDriver(new RemoteWebDriver(service.getUrl(), DesiredCapabilities.chrome())).register(eventListener);
-        driver.get("http://alpha.vloop.io/sign_in");
+        driver.get("http://portal.vloop.io/sign_in");
         driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
     }
 
     @AfterMethod
-    public void tearDown(ITestResult result) {
+    public void takeScreenShot(ITestResult result){
         CaptureScreenShot screen = new CaptureScreenShot(driver);
         screen.takeScreenshot(result);
+    }
+
+    @AfterMethod
+    public void tearDown() {
         driver.quit();
         service.stop();
     }
@@ -55,5 +71,5 @@ public class Setting {
         }
     }
 
-
+   
 }
