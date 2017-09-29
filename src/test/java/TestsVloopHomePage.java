@@ -1,33 +1,28 @@
 import Pages.Home;
 import Pages.SignIn;
-import Setting.Setting;
+import Settings.Setting;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
 public class TestsVloopHomePage extends Setting {
 
     private String file = "football.jpg";
-    private String editFile = RandomStringUtils.randomAlphabetic(6).toString() + ".jpg";
-    private String video = "vloopVideo.mp4";
-    private String youTubeLink = "https://www.youtube.com/watch?v=kXYiU_JCYtU";
-    private String yVideo = "Numb (Official Video) - Linkin Park";
-    private String yVideoTitle = RandomStringUtils.randomAlphabetic(6).toString();
+    private String editFl = RandomStringUtils.randomAlphabetic(6).toString() + ".jpg";
+    private String video = "Video.mp4";
+    private String linkYT = "https://www.youtube.com/watch?v=kXYiU_JCYtU";
+    private String videoYT = "Numb (Official Video) - Linkin Park";
+    private String vdTltYT = RandomStringUtils.randomAlphabetic(6).toString();
     private String folder = RandomStringUtils.randomAlphabetic(6).toString();
-    private String editFolder = RandomStringUtils.randomAlphabetic(6).toString();
+    private String editFld = RandomStringUtils.randomAlphabetic(6).toString();
 
 
     @BeforeMethod
     public void cleanHomePage() {
         SignIn signIn = new SignIn();
         signIn.logIn("vloopapp15@gmail.com", "12345678vloop");
-        new WebDriverWait(driver, 60)
-                .until(ExpectedConditions.presenceOfElementLocated(By.id("add_video")));
         Home home = new Home();
-        home.closeToastMessage();
+        Setting.sleep(2);
         home.clean();
     }
 
@@ -43,11 +38,8 @@ public class TestsVloopHomePage extends Setting {
     public void checkEditingFolder(){
         Home home = new Home();
         home.addNewFolder(folder);
-        new WebDriverWait(driver, 100)
-                .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//tr[contains(., '" + folder + "')]/td//img[@src='https://icons.vloop.io/Ellipsis+Filled-50.png']")));
-        home.editFolder(folder, editFolder);
-        Setting.sleep(2);
-        Assert.assertTrue(home.isFolderPresent(editFolder));
+        home.editFolder(folder, editFld);
+        Assert.assertTrue(home.isFolderPresent(editFld));
     }
 
     @Test
@@ -61,9 +53,9 @@ public class TestsVloopHomePage extends Setting {
     public void checkFileEditing(){
         Home home = new Home();
         home.uploadFileFromPc();
-        home.edit(file, editFile);
+        home.edit(file, editFl);
         Setting.sleep(1);
-        Assert.assertTrue(home.isGamePresent(editFile));
+        Assert.assertTrue(home.isGamePresent(editFl));
     }
 
     @Test
@@ -71,33 +63,30 @@ public class TestsVloopHomePage extends Setting {
         Home home = new Home();
         home.uploadVideoFromDropBox("kay4444@ukr.net", "Kay4444@ukr", video);
         Setting.sleep(1);
-        Assert.assertTrue(home.isGamePresent(video));
+        Assert.assertTrue(home.isGamePresent(home.getGameTitle()));
     }
 
     @Test
     public void checkVdUploadingPC(){
         Home home = new Home();
         home.uploadVideoPc();
-        Setting.sleep(2);
-        Assert.assertTrue(home.isGamePresent(video));
-        Assert.assertEquals(home.getVdDuration(video), "Processing");
+        Assert.assertTrue(home.isGamePresent(home.getGameTitle()));
     }
 
     @Test
     public void checkVdUploadingYouTube(){
         Home home = new Home();
-        home.uploadYouTubeVideo(youTubeLink);
+        home.uploadYouTubeVideo(linkYT, videoYT);
         Setting.sleep(2);
-        Assert.assertTrue(home.isGamePresent(yVideo));
-        Assert.assertEquals(home.getVdDuration(yVideo), "00:03:07");
+        Assert.assertTrue(home.isGamePresent(videoYT));
+        Assert.assertEquals(home.getVdDuration(videoYT), "00:03:07");
     }
 
     @Test
     public void checkVdEditing(){
         Home home = new Home();
-        home.uploadYouTubeVideo(youTubeLink);
-        home.edit(yVideo, yVideoTitle);
-        Setting.sleep(1);
-        Assert.assertTrue(home.isGamePresent(yVideoTitle));
+        home.uploadYouTubeVideo(linkYT, videoYT);
+        home.edit(videoYT, vdTltYT);
+        Assert.assertTrue(home.isGamePresent(vdTltYT));
     }
 }

@@ -1,5 +1,7 @@
 Pages\Home.class
 Reports\CaptureScreenShot.class
-Pages\SignIn.class
+Element\Element.class
 Reports\LoggingEventListener.class
-Setting\Setting.class
+Settings\Setting.class
+Pages\SignIn.class
+Pages\Game.class

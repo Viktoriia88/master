@@ -2,39 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9cacf75-4cd5-4d2d-8c51-3dd0949a4d0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Element/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Enums/Variables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Pages/Game.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestVloopGamePage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsVloop.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/xml/TestsVloop_results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appLog4j.log.2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Enums/Variables.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Enums/Variables.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Setting/Setting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-package.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-package.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/Vloop-package.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vloopVideo.mp4" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Setting/Setting.java" afterPath="$PROJECT_DIR$/src/main/java/Settings/Setting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UploadVideo.exe" afterPath="$PROJECT_DIR$/UploadVideo.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Element/Element.class" afterPath="$PROJECT_DIR$/target/classes/Element/Element.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages/Game.class" afterPath="$PROJECT_DIR$/target/classes/Pages/Game.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages/Home.class" afterPath="$PROJECT_DIR$/target/classes/Pages/Home.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Pages/SignIn.class" afterPath="$PROJECT_DIR$/target/classes/Pages/SignIn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Reports/CaptureScreenShot.class" afterPath="$PROJECT_DIR$/target/classes/Reports/CaptureScreenShot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Reports/LoggingEventListener.class" afterPath="$PROJECT_DIR$/target/classes/Reports/LoggingEventListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Setting/Setting.class" afterPath="$PROJECT_DIR$/target/classes/Setting/Setting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestVloopGamePage.class" afterPath="$PROJECT_DIR$/target/test-classes/TestVloopGamePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestsVloop.class" afterPath="$PROJECT_DIR$/target/test-classes/TestsVloop.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestsVloopHomePage.class" afterPath="$PROJECT_DIR$/target/test-classes/TestsVloopHomePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UploadVideo.au3" afterPath="$PROJECT_DIR$/UploadVideo.au3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appLog4j.log" afterPath="$PROJECT_DIR$/appLog4j.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appLog4j.log.1" afterPath="$PROJECT_DIR$/appLog4j.log.1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Element/Element.java" afterPath="$PROJECT_DIR$/src/main/java/Element/Element.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/Game.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/Game.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/Home.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/Home.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/SignIn.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/SignIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Reports/CaptureScreenShot.java" afterPath="$PROJECT_DIR$/src/main/java/Reports/CaptureScreenShot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Reports/LoggingEventListener.java" afterPath="$PROJECT_DIR$/src/main/java/Reports/LoggingEventListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Setting/Setting.java" afterPath="$PROJECT_DIR$/src/main/java/Setting/Setting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestVloopGamePage.java" afterPath="$PROJECT_DIR$/src/test/java/TestVloopGamePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestsVloop.java" afterPath="$PROJECT_DIR$/src/test/java/TestsVloop.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-package.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-package.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-package.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suites.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsVloopHomePage.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsVloopHomePage.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/classes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods-alphabetical.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods-not-run.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods-not-run.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/testng.xml.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/testng.xml.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/toc.html" />
@@ -57,66 +67,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Game.java">
+      <file leaf-file-name="TestsVloopHomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1460">
-              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1200">
+              <caret line="65" column="35" lean-forward="false" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestVloopGamePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestVloopGamePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Home.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="2000">
+              <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Variables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Enums/Variables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Element.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Element/Element.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -160,7 +136,6 @@
         <option value="$PROJECT_DIR$/src/main/java/LoggingEventListener.java" />
         <option value="$PROJECT_DIR$/testsvloop.iml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/appLog4j.log" />
         <option value="$PROJECT_DIR$/target/site/allure-maven-plugin.html" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/UploadImage.au3" />
@@ -168,22 +143,28 @@
         <option value="$PROJECT_DIR$/src/main/java/Reports/LoggingEventListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestVloopFolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/Reports/CaptureScreenShot.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Wait.java" />
         <option value="$PROJECT_DIR$/src/main/java/Setting/WaitEl.java" />
         <option value="$PROJECT_DIR$/src/main/java/Setting/Wait.java" />
         <option value="$PROJECT_DIR$/src/main/java/Enum/Variables.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestsVloop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/SignIn.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Setting/waitsElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/Setting/Element.java" />
         <option value="$PROJECT_DIR$/src/main/java/Enums/Variables.java" />
+        <option value="$PROJECT_DIR$/appLog4j.log" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsVloop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Setting/SettingsGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Setting/GameSetting.java" />
         <option value="$PROJECT_DIR$/src/main/java/Setting/Setting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Settings/SettingGame.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/UploadVideo.au3" />
+        <option value="$PROJECT_DIR$/src/main/java/Settings/Setting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/SignIn.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/Game.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Element/Element.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestVloopGamePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/Home.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Element/Element.java" />
       </list>
     </option>
   </component>
@@ -210,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +231,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Enums" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testsvloop" type="b2602c69:ProjectViewProjectNode" />
@@ -265,7 +247,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Setting" type="462c0819:PsiDirectoryNode" />
+              <item name="Settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testsvloop" type="b2602c69:ProjectViewProjectNode" />
@@ -291,10 +273,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +283,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="SearchEverywhereHistoryKey" value="termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;settings.xml&#9;FILE&#9;file://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.2/plugins/maven/lib/maven3/conf/settings.xml&#10;sett&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/deploy.jar!/com/sun/deploy/panel/settings.xml_java-control-panel.dtd&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;todo&#9;ACTION&#9;ActivateTODOToolWindow&#10;termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="confirm-modal-button&#9;null&#9;null&#10;termi&#9;ACTION&#9;ActivateTerminalToolWindow&#10;settings.xml&#9;FILE&#9;file://C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2017.2/plugins/maven/lib/maven3/conf/settings.xml&#10;sett&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/deploy.jar!/com/sun/deploy/panel/settings.xml_java-control-panel.dtd&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;todo&#9;ACTION&#9;ActivateTODOToolWindow&#10;termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
@@ -332,18 +313,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestVloopGamePage.checkLoadImageCanvas">
-    <configuration name="TestVloopGamePage.checkLoadImageCanvas" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestsVloopHomePage">
+    <configuration name="C:/Users/Kay/IdeaProjects/testsvloop/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="testsvloop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestVloopGamePage" />
-      <option name="METHOD_NAME" value="checkLoadImageCanvas" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -360,7 +341,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="TestVloopGamePage.checkSkipBack" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestVloopGamePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="testsvloop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -368,63 +349,9 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestVloopGamePage" />
-      <option name="METHOD_NAME" value="checkSkipBack" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestVloopGamePage.checkSkipForward" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="testsvloop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestVloopGamePage" />
-      <option name="METHOD_NAME" value="checkSkipForward" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestVloopGamePage.checkSkipForwardFunction" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="testsvloop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestVloopGamePage" />
-      <option name="METHOD_NAME" value="checkSkipForwardFunction" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -450,6 +377,60 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestVloopGamePage" />
       <option name="METHOD_NAME" value="checkThatVideoIsPlayed" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestsVloopHomePage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="testsvloop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsVloopHomePage" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestsVloopHomePage.checkVdUploadingFromDrBox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="testsvloop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsVloopHomePage" />
+      <option name="METHOD_NAME" value="checkVdUploadingFromDrBox" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -550,19 +531,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkThatVideoIsPlayed" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkSkipForwardFunction" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkSkipBack" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkLoadImageCanvas" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkSkipForward" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.C:/Users/Kay/IdeaProjects/testsvloop/testng.xml" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestsVloopHomePage.checkVdUploadingFromDrBox" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkThatVideoIsPlayed" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.TestsVloopHomePage" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkLoadImageCanvas" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkSkipForward" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkSkipBack" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkSkipForwardFunction" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkThatVideoIsPlayed" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestsVloopHomePage" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestsVloopHomePage.checkVdUploadingFromDrBox" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TestVloopGamePage.checkThatVideoIsPlayed" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.C:/Users/Kay/IdeaProjects/testsvloop/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -583,35 +564,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 11h 40m 04s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="C__Users_Kay_IdeaProjects_testsvloop_testng_xml - 2017.09.28 at 13h 27m 48s.xml">
+      <configuration name="C:/Users/Kay/IdeaProjects/testsvloop/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 11h 44m 08s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestVloopGamePage - 2017.09.28 at 13h 11m 19s.xml">
+      <configuration name="TestVloopGamePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 11h 45m 21s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestVloopGamePage - 2017.09.28 at 14h 48m 46s.xml">
+      <configuration name="TestVloopGamePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 11h 47m 16s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestVloopGamePage_checkThatVideoIsPlayed - 2017.09.28 at 13h 34m 58s.xml">
+      <configuration name="TestVloopGamePage.checkThatVideoIsPlayed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 11h 48m 38s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestVloopGamePage_checkThatVideoIsPlayed - 2017.09.28 at 13h 35m 10s.xml">
+      <configuration name="TestVloopGamePage.checkThatVideoIsPlayed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 11h 55m 14s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestVloopGamePage_checkThatVideoIsPlayed - 2017.09.28 at 14h 42m 24s.xml">
+      <configuration name="TestVloopGamePage.checkThatVideoIsPlayed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 11h 56m 05s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestsVloopHomePage - 2017.09.28 at 16h 08m 57s.xml">
+      <configuration name="TestsVloopHomePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 11h 57m 28s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestsVloopHomePage - 2017.09.28 at 16h 14m 50s.xml">
+      <configuration name="TestsVloopHomePage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 12h 02m 34s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestsVloopHomePage_checkVdUploadingFromDrBox - 2017.09.28 at 14h 01m 57s.xml">
+      <configuration name="TestsVloopHomePage.checkVdUploadingFromDrBox" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestVloopGamePage_checkLoadImageCanvas - 2017.09.20 at 12h 03m 24s.xml">
-      <configuration name="TestVloopGamePage.checkLoadImageCanvas" configurationId="TestNG" />
+    <history-entry file="TestsVloopHomePage_checkVdUploadingFromDrBox - 2017.09.28 at 15h 59m 06s.xml">
+      <configuration name="TestsVloopHomePage.checkVdUploadingFromDrBox" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -625,22 +606,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18571429" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27321428" sideWeight="0.496875" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9875" sideWeight="0.5048544" order="7" side_tool="true" content_ui="tabs" x="-9" y="404" width="1280" height="192" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06607143" sideWeight="0.49514562" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46607143" sideWeight="0.49514562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03883495" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2936893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -651,6 +630,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27321428" sideWeight="0.496875" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -674,10 +654,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36964285" sideWeight="0.49514562" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46607143" sideWeight="0.49514562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3527508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07678571" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28398058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -697,149 +677,154 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkFileEditing_2017-09-13_22-30.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-13_22-31.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-13_22-42.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-13_22-44.png" />
-    <entry file="file://$PROJECT_DIR$/UploadVideo.au3">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkSkipBack_2017-09-26_12-11.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkPlayingBySpace_2017-09-26_12-10.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkPlayingBySpace_2017-09-26_12-16.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkPlayingBySpace_2017-09-26_12-29.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkSkipForward_2017-09-26_12-37.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkPlayingBySpace_2017-09-26_12-44.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkSkipForward_2017-09-26_12-51.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkSkipForward_2017-09-26_12-57.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkScreenShot_2017-09-26_13-20.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkScreenShot_2017-09-26_13-49.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkScreenShot_2017-09-26_13-54.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkScreenShot_2017-09-26_14-06.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="220">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appLog4j.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-1080">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-13_22-46.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-13_22-52.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-13_23-07.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingFromDrBox_2017-09-14_10-58.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLogInVloop_2017-09-14_11-12.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkEditingFolder_2017-09-14_11-12.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkNewFolderIsAdded_2017-09-14_11-49.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingYouTube_2017-09-14_12-34.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Wait.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Setting/WaitEl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Setting/Wait.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Variables/Variables.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/java/lang/Enum.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-949">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enum/Variables.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkNewFolderIsAdded_2017-09-14_14-32.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkEditingFolder_2017-09-14_14-45.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkEditingFolder_2017-09-14_14-56.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkNewFolderIsAdded_2017-09-14_14-57.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkNewFolderIsAdded_2017-09-14_14-59.png" />
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/SignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="45" column="114" lean-forward="false" selection-start-line="45" selection-start-column="114" selection-end-line="45" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkAddingCommentByTag_2017-09-26_15-27.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestsVloop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="18" column="105" lean-forward="false" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingFromDrBox_2017-09-15_10-40.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingFromDrBox_2017-09-15_10-43.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkThatVideoIsPlayed_2017-09-15_14-10.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkThatVideoIsPlayed_2017-09-15_14-55.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkSkipForwardFunction_2017-09-15_16-38.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_12-46.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_12-54.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Setting/Element.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_14-23.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_14-25.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_14-29.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_14-39.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_14-51.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_17-06.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_17-10.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-19_17-17.png" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Setting/Setting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-20_11-56.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkTagAdding_2017-09-26_19-00.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Settings/SettingGame.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-27_13-06.png" />
+    <entry file="file://$PROJECT_DIR$/UploadVideo.au3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Element/Element.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="100">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-27_13-50.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-27_13-51.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkEditingFolder_2017-09-27_14-04.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Settings/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="61" column="14" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="false" />
+            <element signature="e#2134#2135#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkSkipForward_2017-09-27_14-55.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkTagAdding_2017-09-27_14-55.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkSkipBack_2017-09-27_15-05.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkSkipForward_2017-09-27_15-06.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkThatVideoIsPlayed_2017-09-27_16-12.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdEditing_2017-09-27_16-28.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkEditingFolder_2017-09-27_16-47.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/SignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="66" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+          <folding>
+            <element signature="e#911#912#0" expanded="false" />
+            <element signature="e#943#944#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+            <element signature="e#1027#1028#0" expanded="false" />
+            <element signature="e#1066#1067#0" expanded="false" />
+            <element signature="e#1103#1104#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-28_11-33.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingFromDrBox_2017-09-28_11-31.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-28_11-49.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-28_12-21.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkLoadImageCanvas_2017-09-28_12-29.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingFromDrBox_2017-09-28_12-45.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingPC_2017-09-28_12-45.png" />
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkThatVideoIsPlayed_2017-09-28_13-27.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1460">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="83">
+          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingFromDrBox_2017-09-28_13-40.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkThatVideoIsPlayed_2017-09-28_14-32.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingFromDrBox_2017-09-28_15-34.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestVloopGamePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="-912">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Enums/Variables.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Reports/Screens/screenshot_checkVdUploadingFromDrBox_2017-09-28_16-06.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="1200">
+          <caret line="65" column="35" lean-forward="false" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="2000">
+          <caret line="105" column="22" lean-forward="false" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Element/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
           <folding />
         </state>
       </provider>

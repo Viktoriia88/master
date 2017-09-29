@@ -1,10 +1,7 @@
-import Enums.Variables;
+import Element.Element;
 import Pages.SignIn;
-import Setting.Setting;
+import Settings.Setting;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,15 +9,10 @@ import org.testng.annotations.Test;
 public class TestsVloop extends Setting{
 
     @Test
-    public void checkLogInVloop() {
+    public void checkLogIn() {
         SignIn signIn = new SignIn();
         signIn.logIn("vloopapp15@gmail.com", "12345678vloop");
-        new WebDriverWait(driver, 30)
-                .until(ExpectedConditions.presenceOfElementLocated(By.id(Variables.addVideoBtn.toString())));
         Assert.assertEquals(driver.getCurrentUrl(), "https://portal.vloop.io/home/");
-        Setting.sleep(1);
-        signIn.signOut();
-        Assert.assertEquals(driver.getCurrentUrl(), "https://portal.vloop.io/sign_in");
     }
 
     @Test
@@ -33,9 +25,11 @@ public class TestsVloop extends Setting{
     @Test
     public void checkWrongEmail(){
         SignIn signIn = new SignIn();
-        signIn.logIn("vloopapp@gmail.com", "12345678vloop");
-        WebElement toastMsg = (new WebDriverWait(driver, 30))
-                .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".toast-message")));
+        signIn.enterEmail("vloopapp@gmail.com");
+        signIn.enterPassword("12345678vloop");
+        signIn.clickLogInBtn();
+        Element toastMsg = new Element(By.cssSelector(".toast-message"));
+        toastMsg.waitIsPresent();
         Assert.assertEquals(toastMsg.getText(), "Invalid login credentials. Please try again.");
     }
 

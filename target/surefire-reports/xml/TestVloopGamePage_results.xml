@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Vloop-login"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="195,235">
+  <properties />
+  
+  
+            <testcase name="checkAddingCommentByTag" time="14,835" classname="TestVloopGamePage" />
+                <testcase name="checkThatVideoIsPlayed" time="2,353" classname="TestVloopGamePage" />
+                <testcase name="checkLoadImageCanvas" time="18,475" classname="TestVloopGamePage" />
+                <testcase name="checkSkipBack" time="0,468" classname="TestVloopGamePage" />
+                <testcase name="checkScreenShot" time="134,120" classname="TestVloopGamePage" />
+                <testcase name="checkCommentAdding" time="4,762" classname="TestVloopGamePage" />
+                <testcase name="checkCommentEditing" time="7,660" classname="TestVloopGamePage" />
+                <testcase name="checkSkipForward" time="0,202" classname="TestVloopGamePage" />
+                <testcase name="checkTagAdding" time="12,360" classname="TestVloopGamePage" />
+      
+</testsuite>

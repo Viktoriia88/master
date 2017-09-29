@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Vloop-login"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5,350">
+  <properties />
+  
+  
+            <testcase name="checkContactUsLinkIsClickable" time="0,539" classname="TestsVloop" />
+                <testcase name="checkLogIn" time="2,715" classname="TestsVloop" />
+                <testcase name="checkLogInBtnEnabled" time="0,429" classname="TestsVloop" />
+                <testcase name="checkWrongEmail" time="1,667" classname="TestsVloop" />
+      
+</testsuite>

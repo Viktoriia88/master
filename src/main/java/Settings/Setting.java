@@ -1,17 +1,14 @@
-package Setting;
+package Settings;
 
 import Reports.CaptureScreenShot;
 import Reports.LoggingEventListener;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.events.WebDriverEventListener;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -34,7 +31,7 @@ public class Setting {
         }
     }
 
-    @BeforeMethod
+    @BeforeTest
     public static void createAndStartService() throws IOException {
         service = new ChromeDriverService.Builder()
                 .usingDriverExecutable(new File("C:\\Users\\Kay\\chromedriver.exe"))
@@ -60,6 +57,10 @@ public class Setting {
     @AfterMethod
     public void tearDown() {
         driver.quit();
+    }
+
+    @AfterTest
+    public void stopService(){
         service.stop();
     }
 
@@ -70,6 +71,4 @@ public class Setting {
             e.printStackTrace();
         }
     }
-
-   
 }

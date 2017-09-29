@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Vloop-package"
+<testsuite name="Vloop-login"
            tests="8"
            failures="0"
            errors="0"
            skipped="0"
-           time="77,744">
+           time="194,511">
   <properties />
   
   
-            <testcase name="checkFileEditing" time="18,129" classname="TestsVloopHomePage" />
-                <testcase name="checkFileUploading" time="14,676" classname="TestsVloopHomePage" />
-                <testcase name="checkNewFolderIsAdded" time="2,527" classname="TestsVloopHomePage" />
-                <testcase name="checkEditingFolder" time="5,537" classname="TestsVloopHomePage" />
-                <testcase name="checkVdUploadingYouTube" time="4,120" classname="TestsVloopHomePage" />
-                <testcase name="checkVdUploadingFromDrBox" time="11,266" classname="TestsVloopHomePage" />
-                <testcase name="checkVdEditing" time="9,274" classname="TestsVloopHomePage" />
-                <testcase name="checkVdUploadingPC" time="12,215" classname="TestsVloopHomePage" />
+            <testcase name="checkNewFolderIsAdded" time="4,599" classname="TestsVloopHomePage" />
+                <testcase name="checkEditingFolder" time="8,151" classname="TestsVloopHomePage" />
+                <testcase name="checkVdUploadingYouTube" time="9,187" classname="TestsVloopHomePage" />
+                <testcase name="checkVdUploadingFromDrBox" time="12,232" classname="TestsVloopHomePage" />
+                <testcase name="checkVdEditing" time="11,780" classname="TestsVloopHomePage" />
+                <testcase name="checkFileUploading" time="27,577" classname="TestsVloopHomePage" />
+                <testcase name="checkVdUploadingPC" time="89,769" classname="TestsVloopHomePage" />
+                <testcase name="checkFileEditing" time="31,216" classname="TestsVloopHomePage" />
       
 </testsuite>

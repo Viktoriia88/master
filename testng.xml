@@ -3,8 +3,9 @@
 <suite name="Suite1" verbose="1">
     <test name="Vloop-login">
         <classes>
-            <class name="TestsVloop"></class>
             <class name="TestsVloopHomePage"></class>
+            <class name="TestVloopGamePage"></class>
+            <class name="TestsVloop"></class>
         </classes>
     </test>
 </suite>

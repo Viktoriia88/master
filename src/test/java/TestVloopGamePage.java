@@ -1,27 +1,26 @@
 import Pages.Game;
 import Pages.Home;
 import Pages.SignIn;
-import Setting.Setting;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import Settings.Setting;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class TestVloopGamePage extends Setting {
+
+    private String comment = RandomStringUtils.randomAlphabetic(5).toString();
+    private String editComment = RandomStringUtils.randomAlphabetic(5).toString();
+    private String tag = RandomStringUtils.randomAlphabetic(5).toString();
+    private String video = "Video.mp4";
 
     @BeforeMethod
     public void uploadVideo(){
         SignIn signIn = new SignIn();
         signIn.logIn("vloopapp15@gmail.com", "12345678vloop");
-        new WebDriverWait(driver, 60)
-                .until(ExpectedConditions.presenceOfElementLocated(By.id("add_video")));
         Home home = new Home();
-        home.closeToastMessage();
-        //home.clean();
-        //home.uploadVideoPc();
-        home.navigateToVideo();
+        Setting.sleep(1);
+        home.selectVideo(video);
+        Setting.sleep(1);
     }
 
     @Test
@@ -52,5 +51,46 @@ public class TestVloopGamePage extends Setting {
         Game game = new Game();
         game.loadImage();
         Assert.assertTrue(game.isUploadCvsImgPresent());
+    }
+
+    @Test
+    public void checkCommentAdding(){
+        Game game = new Game();
+        game.createComment(comment);
+        Assert.assertTrue(game.isCommentPresent(comment));
+    }
+
+    @Test
+    public void checkCommentEditing(){
+        Game game = new Game();
+        game.createComment(comment);
+        game.editComment(editComment);
+        Assert.assertTrue(game.isCommentPresent(editComment));
+    }
+
+    @Test
+    public void checkTagAdding(){
+        Game game = new Game();
+        game.addTag(tag);
+        Setting.sleep(2);
+        Assert.assertTrue(game.getTagsText().contains(tag));
+        game.deleteTag();
+    }
+
+    @Test
+    public void checkAddingCommentByTag(){
+        Game game = new Game();
+        game.cleanCommentList();
+        game.addTag(tag);
+        game.addCommentByTag(tag);
+        Assert.assertTrue(game.getCommentsText().contains(tag));
+        game.deleteTag();
+    }
+
+    @Test
+    public void checkScreenShot(){
+        Game game = new Game();
+        String linkScreenShot = game.takeScreenShot();
+        Assert.assertTrue(game.getToScreenShotValues().contains(linkScreenShot));
     }
 }
