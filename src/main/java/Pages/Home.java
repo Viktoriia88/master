@@ -104,17 +104,17 @@ public class Home extends Setting{
     public boolean isGamePresent(String game){
         Element gameEl= new Element(By.xpath("//tr[contains(., '" + game + "')]"));
         gameEl.waitIsPresent();
-        Setting.sleep(2);
+        sleep(2);
         return gameEl.isPresent();
     }
 
     public void waitUploading(int time){
-        Setting.sleep(1);
+        sleep(1);
         for (int i = 0; i < time; i++) {
             if (uplBar.isPresent() == false) {
                 break;
             }
-            Setting.sleep(1);
+            sleep(1);
         }
     }
 
@@ -152,7 +152,7 @@ public class Home extends Setting{
         {
             driver.switchTo().window(drBoxWindow);
         }
-        Setting.sleep(1);
+        sleep(1);
         emailDrBox.sendKeys(email);
         pswdDrBox.sendKeys(password);
         logInDrBox.click();
@@ -161,7 +161,7 @@ public class Home extends Setting{
         vdName.click();
         chooseBtn.click();
         driver.switchTo().window(homeWindow);
-        Setting.sleep(1);
+        sleep(1);
         uplVdSubmitBtn.isClickable();
         uplVdSubmitBtn.click();
     }
@@ -180,7 +180,7 @@ public class Home extends Setting{
     }
 
     public void selectFromPc(String path){
-        Setting.sleep(1);
+        sleep(1);
         try {
             Runtime.getRuntime().exec("C:\\Users\\Kay\\IdeaProjects\\testsvloop\\" + path);
         } catch (IOException e) {
@@ -245,12 +245,12 @@ public class Home extends Setting{
         while (isFolderImagePresent() == true){
             String folder = getFolderTitle();
             deleteFolder(folder);
-            Setting.sleep(1);
+            sleep(1);
         }
         while (isCheckBoxGamePresent() == true){
             String game = getGameTitle();
             delete(game);
-            Setting.sleep(1);
+            sleep(1);
         }
     }
 
@@ -260,12 +260,12 @@ public class Home extends Setting{
             Element videoTitleNew = new Element(By.xpath("//a[contains(., 'Video(2).mp4')]"));
 
             if (videoTitle.isPresent() == true || videoTitleNew.isPresent() == true) {
-                Setting.sleep(1);
+                sleep(1);
                 navigateToVideo();
             } else
                 {
                 uploadVideoPc();
-                Setting.sleep(1);
+                sleep(1);
                 navigateToVideo();
                 }
         }

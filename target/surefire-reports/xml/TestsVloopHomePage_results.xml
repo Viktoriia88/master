@@ -4,17 +4,17 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="194,511">
+           time="200,618">
   <properties />
   
   
-            <testcase name="checkNewFolderIsAdded" time="4,599" classname="TestsVloopHomePage" />
-                <testcase name="checkEditingFolder" time="8,151" classname="TestsVloopHomePage" />
-                <testcase name="checkVdUploadingYouTube" time="9,187" classname="TestsVloopHomePage" />
-                <testcase name="checkVdUploadingFromDrBox" time="12,232" classname="TestsVloopHomePage" />
-                <testcase name="checkVdEditing" time="11,780" classname="TestsVloopHomePage" />
-                <testcase name="checkFileUploading" time="27,577" classname="TestsVloopHomePage" />
-                <testcase name="checkVdUploadingPC" time="89,769" classname="TestsVloopHomePage" />
-                <testcase name="checkFileEditing" time="31,216" classname="TestsVloopHomePage" />
+            <testcase name="checkVdUploadingPC" time="90,632" classname="TestsVloopHomePage" />
+                <testcase name="checkEditingFolder" time="8,692" classname="TestsVloopHomePage" />
+                <testcase name="checkVdUploadingFromDrBox" time="14,710" classname="TestsVloopHomePage" />
+                <testcase name="checkVdEditing" time="11,371" classname="TestsVloopHomePage" />
+                <testcase name="checkNewFolderIsAdded" time="4,978" classname="TestsVloopHomePage" />
+                <testcase name="checkVdUploadingYouTube" time="10,252" classname="TestsVloopHomePage" />
+                <testcase name="checkFileUploading" time="27,878" classname="TestsVloopHomePage" />
+                <testcase name="checkFileEditing" time="32,105" classname="TestsVloopHomePage" />
       
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="842.694" tests="21" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="882.251" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Progra~1\Java\jdk1.8.0_111\jre\bin"/>
@@ -64,25 +64,25 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="checkEditingFolder" classname="TestsVloopHomePage" time="8.152"/>
-  <testcase name="checkFileEditing" classname="TestsVloopHomePage" time="31.217"/>
-  <testcase name="checkFileUploading" classname="TestsVloopHomePage" time="27.577"/>
-  <testcase name="checkNewFolderIsAdded" classname="TestsVloopHomePage" time="4.599"/>
-  <testcase name="checkVdEditing" classname="TestsVloopHomePage" time="11.781"/>
-  <testcase name="checkVdUploadingFromDrBox" classname="TestsVloopHomePage" time="12.232"/>
-  <testcase name="checkVdUploadingPC" classname="TestsVloopHomePage" time="89.77"/>
-  <testcase name="checkVdUploadingYouTube" classname="TestsVloopHomePage" time="9.187"/>
-  <testcase name="checkAddingCommentByTag" classname="TestVloopGamePage" time="14.835"/>
-  <testcase name="checkCommentAdding" classname="TestVloopGamePage" time="4.762"/>
-  <testcase name="checkCommentEditing" classname="TestVloopGamePage" time="7.661"/>
-  <testcase name="checkLoadImageCanvas" classname="TestVloopGamePage" time="18.476"/>
-  <testcase name="checkScreenShot" classname="TestVloopGamePage" time="134.12"/>
-  <testcase name="checkSkipBack" classname="TestVloopGamePage" time="0.468"/>
-  <testcase name="checkSkipForward" classname="TestVloopGamePage" time="0.202"/>
-  <testcase name="checkTagAdding" classname="TestVloopGamePage" time="12.361"/>
-  <testcase name="checkThatVideoIsPlayed" classname="TestVloopGamePage" time="2.353"/>
-  <testcase name="checkContactUsLinkIsClickable" classname="TestsVloop" time="0.538"/>
-  <testcase name="checkLogIn" classname="TestsVloop" time="2.715"/>
-  <testcase name="checkLogInBtnEnabled" classname="TestsVloop" time="0.429"/>
-  <testcase name="checkWrongEmail" classname="TestsVloop" time="1.666"/>
+  <testcase name="checkEditingFolder" classname="TestsVloopHomePage" time="8.692"/>
+  <testcase name="checkFileEditing" classname="TestsVloopHomePage" time="32.105"/>
+  <testcase name="checkFileUploading" classname="TestsVloopHomePage" time="27.874"/>
+  <testcase name="checkNewFolderIsAdded" classname="TestsVloopHomePage" time="4.978"/>
+  <testcase name="checkVdEditing" classname="TestsVloopHomePage" time="11.372"/>
+  <testcase name="checkVdUploadingFromDrBox" classname="TestsVloopHomePage" time="14.71"/>
+  <testcase name="checkVdUploadingPC" classname="TestsVloopHomePage" time="90.628"/>
+  <testcase name="checkVdUploadingYouTube" classname="TestsVloopHomePage" time="10.252"/>
+  <testcase name="checkAddingCommentByTag" classname="TestVloopGamePage" time="16.254"/>
+  <testcase name="checkCommentAdding" classname="TestVloopGamePage" time="5.137"/>
+  <testcase name="checkCommentEditing" classname="TestVloopGamePage" time="7.977"/>
+  <testcase name="checkLoadImageCanvas" classname="TestVloopGamePage" time="20.938"/>
+  <testcase name="checkScreenShot" classname="TestVloopGamePage" time="144.244"/>
+  <testcase name="checkSkipBack" classname="TestVloopGamePage" time="0.393"/>
+  <testcase name="checkSkipForward" classname="TestVloopGamePage" time="0.469"/>
+  <testcase name="checkTagAdding" classname="TestVloopGamePage" time="13.486"/>
+  <testcase name="checkThatVideoIsPlayed" classname="TestVloopGamePage" time="2.628"/>
+  <testcase name="checkContactUsLinkIsClickable" classname="TestsVloop" time="0.812"/>
+  <testcase name="checkLogIn" classname="TestsVloop" time="2.645"/>
+  <testcase name="checkLogInBtnEnabled" classname="TestsVloop" time="0.418"/>
+  <testcase name="checkWrongEmail" classname="TestsVloop" time="2.314"/>
 </testsuite>

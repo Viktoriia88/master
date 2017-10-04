@@ -1,0 +1,351 @@
+2017-10-03 19:04:51,199 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:04:56,261 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:04:56,432 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:04:58,726 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:04:59,091 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-04.png
+2017-10-03 19:06:14,561 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:06:29,005 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:06:29,186 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:06:29,976 INFO  - Element is found By.cssSelector: .login-block__submit-but clicked successfully
+2017-10-03 19:06:33,075 INFO  - Element is found By.linkText: eDisk clicked successfully
+2017-10-03 19:06:36,145 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:06:36,636 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-06.png
+2017-10-03 19:07:45,834 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:07:54,429 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:07:54,527 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:07:54,958 INFO  - Element is found By.cssSelector: .login-block__submit-but clicked successfully
+2017-10-03 19:07:58,125 INFO  - Element is found By.linkText: eDisk clicked successfully
+2017-10-03 19:10:03,901 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:10:04,326 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-10.png
+2017-10-03 19:16:52,514 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:16:55,938 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:16:56,038 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:16:56,581 INFO  - Element is found By.cssSelector: .login-block__submit-but clicked successfully
+2017-10-03 19:16:59,735 INFO  - Element is found By.linkText: eDisk clicked successfully
+2017-10-03 19:17:04,890 INFO  - Element is found By.id: user_upload_bt clicked successfully
+2017-10-03 19:17:05,968 INFO  - Element By.id: htmluploadfile is changed from original value  to C:\fakepath\football.jpg
+2017-10-03 19:17:06,034 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:17:06,319 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-17.png
+2017-10-03 19:20:03,001 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:20:07,657 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:20:09,149 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:20:09,875 INFO  - Element is found By.cssSelector: .login-block__submit-but clicked successfully
+2017-10-03 19:20:13,464 INFO  - Element is found By.linkText: eDisk clicked successfully
+2017-10-03 19:20:18,598 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:20:18,877 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-20.png
+2017-10-03 19:22:02,562 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:22:17,854 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:22:19,146 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:22:20,455 INFO  - Element is found By.cssSelector: .login-block__submit-but clicked successfully
+2017-10-03 19:22:23,659 INFO  - Element is found By.linkText: eDisk clicked successfully
+2017-10-03 19:22:28,794 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:22:29,105 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-22.png
+2017-10-03 19:23:03,937 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:23:18,545 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:23:19,190 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:23:20,038 INFO  - Element is found By.cssSelector: .login-block__submit-but clicked successfully
+2017-10-03 19:23:23,667 INFO  - Element is found By.linkText: eDisk clicked successfully
+2017-10-03 19:23:29,848 INFO  - Element is found By.id: user_upload_bt clicked successfully
+2017-10-03 19:23:30,399 INFO  - Element is found By.linkText: упрощённой версией clicked successfully
+2017-10-03 19:23:31,467 INFO  - Element By.id: htmluploadfile is changed from original value  to C:\fakepath\football.jpg
+2017-10-03 19:23:31,534 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:23:31,816 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-23.png
+2017-10-03 19:24:22,332 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:24:36,203 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:24:36,320 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:24:36,725 INFO  - Element is found By.cssSelector: .login-block__submit-but clicked successfully
+2017-10-03 19:24:39,823 INFO  - Element is found By.linkText: eDisk clicked successfully
+2017-10-03 19:24:45,974 INFO  - Element is found By.id: user_upload_bt clicked successfully
+2017-10-03 19:24:47,112 INFO  - Element is found By.linkText: упрощённой версией clicked successfully
+2017-10-03 19:24:51,224 INFO  - Element By.id: htmluploadfile is changed from original value  to C:\fakepath\football.jpg
+2017-10-03 19:24:51,294 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:24:51,597 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-24.png
+2017-10-03 19:26:06,184 INFO  - Navigate to https://www.ukr.net/
+2017-10-03 19:26:10,242 INFO  - Element By.xpath: //input[@name='Login'] is changed from original value  to vikoko@ukr.net
+2017-10-03 19:26:10,376 INFO  - Element By.xpath: //input[@name='Password'] is changed from original value  to 11041988
+2017-10-03 19:26:10,955 INFO  - Element is found By.cssSelector: .login-block__submit-but clicked successfully
+2017-10-03 19:26:14,073 INFO  - Element is found By.linkText: eDisk clicked successfully
+2017-10-03 19:26:20,262 INFO  - Element is found By.id: user_upload_bt clicked successfully
+2017-10-03 19:26:21,422 INFO  - Element is found By.linkText: упрощённой версией clicked successfully
+2017-10-03 19:26:25,556 INFO  - Element By.id: htmluploadfile is changed from original value  to C:\fakepath\football.jpg
+2017-10-03 19:26:25,628 INFO  - TEST IS: uploadFileUkrNet
+2017-10-03 19:26:25,936 INFO  - C:/Users/Kay/IdeaProjects/testsvloop/src/main/java/Reports/Screens/screenshot_uploadFileUkrNet_2017-10-03_19-26.png
+2017-10-03 20:19:32,469 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:19:39,902 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:19:40,214 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:19:40,433 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:19:40,650 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:19:40,836 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:19:45,843 INFO  - Element is found By.xpath: //div[@name='Video(2).mp4'] clicked successfully
+2017-10-03 20:19:48,243 INFO  - Element is found By.id: delete_videos clicked successfully
+2017-10-03 20:19:49,566 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:19:50,943 INFO  - Element is found By.xpath: //div[@name='Numb (Official Video) - Linkin Park'] clicked successfully
+2017-10-03 20:19:53,196 INFO  - Element is found By.id: delete_videos clicked successfully
+2017-10-03 20:19:54,504 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:19:55,693 INFO  - Element is found By.id: add_folder clicked successfully
+2017-10-03 20:19:56,854 INFO  - Element By.xpath: //input[@ng-model='folder.current.title'] is changed from original value  to qdzDLT
+2017-10-03 20:19:57,002 INFO  - Element is found By.xpath: //button[@ng-click='saveFolder()'] clicked successfully
+2017-10-03 20:19:59,370 INFO  - Element is found By.xpath: //tr[contains(., 'qdzDLT')]//td//a[@class='m-l-sm edit_game_desktop'] clicked successfully
+2017-10-03 20:20:00,659 INFO  - Element is found By.xpath: //tr[contains(., 'qdzDLT')]//a[@class='edit_folder'] clicked successfully
+2017-10-03 20:20:01,773 INFO  - Element By.cssSelector: .form-control.ng-not-empty is changed from original value qdzDLT to 
+2017-10-03 20:20:02,975 INFO  - Element By.cssSelector: .form-control.ng-dirty is changed from original value  to Arvkvn
+2017-10-03 20:20:03,059 INFO  - Element is found By.xpath: //button[@ng-click='saveFolder()'] clicked successfully
+2017-10-03 20:20:04,229 INFO  - TEST IS: checkEditingFolder
+2017-10-03 20:20:06,071 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:20:14,046 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:20:14,442 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:20:14,506 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:20:14,782 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:20:15,026 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:20:19,550 INFO  - Element is found By.xpath: //tr[contains(., 'Arvkvn')]//td//a[@class='m-l-sm edit_game_desktop'] clicked successfully
+2017-10-03 20:20:20,671 INFO  - Element is found By.xpath: //tr[contains(., 'Arvkvn')]//a[@class='delete_folder'] clicked successfully
+2017-10-03 20:20:22,095 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:20:23,341 INFO  - Element is found By.id: add_files clicked successfully
+2017-10-03 20:20:24,533 INFO  - Element is found By.id: file_drop_zone clicked successfully
+2017-10-03 20:20:26,505 INFO  - Element is found By.xpath: //button[@ng-click='saveFiles()'] clicked successfully
+2017-10-03 20:20:48,496 INFO  - Element is found By.xpath: //tr[contains(., 'football.jpg')]//td//a[@class='m-l-sm edit_game_desktop'] clicked successfully
+2017-10-03 20:20:48,600 INFO  - Element is found By.xpath: //a[@ng-click='openEditGameModal(row)'] clicked successfully
+2017-10-03 20:20:49,765 INFO  - Element By.cssSelector: .form-control.ng-not-empty is changed from original value football.jpg to 
+2017-10-03 20:20:51,138 INFO  - Element By.cssSelector: .form-control.ng-dirty is changed from original value  to BTyThO.jpg
+2017-10-03 20:20:51,234 INFO  - Element is found By.id: update_video_button clicked successfully
+2017-10-03 20:20:55,297 INFO  - TEST IS: checkFileEditing
+2017-10-03 20:20:56,827 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:21:03,422 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:21:03,814 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:21:03,990 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:21:04,171 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:21:04,272 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:21:08,152 INFO  - Element is found By.xpath: //div[@name='BTyThO.jpg'] clicked successfully
+2017-10-03 20:21:10,388 INFO  - Element is found By.id: delete_videos clicked successfully
+2017-10-03 20:21:11,787 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:21:12,921 INFO  - Element is found By.id: add_files clicked successfully
+2017-10-03 20:21:14,138 INFO  - Element is found By.id: file_drop_zone clicked successfully
+2017-10-03 20:21:15,829 INFO  - Element is found By.xpath: //button[@ng-click='saveFiles()'] clicked successfully
+2017-10-03 20:21:40,703 INFO  - TEST IS: checkFileUploading
+2017-10-03 20:21:42,251 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:21:49,409 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:21:49,763 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:21:49,826 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:21:50,002 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:21:50,198 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:21:54,073 INFO  - Element is found By.xpath: //div[@name='football.jpg'] clicked successfully
+2017-10-03 20:21:56,354 INFO  - Element is found By.id: delete_videos clicked successfully
+2017-10-03 20:21:57,715 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:21:59,008 INFO  - Element is found By.id: add_folder clicked successfully
+2017-10-03 20:22:00,317 INFO  - Element By.xpath: //input[@ng-model='folder.current.title'] is changed from original value  to qdzDLT
+2017-10-03 20:22:00,510 INFO  - Element is found By.xpath: //button[@ng-click='saveFolder()'] clicked successfully
+2017-10-03 20:22:03,738 INFO  - TEST IS: checkNewFolderIsAdded
+2017-10-03 20:22:05,274 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:22:11,928 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:22:12,255 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:22:12,422 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:22:12,726 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:22:12,970 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:22:16,738 INFO  - Element is found By.xpath: //tr[contains(., 'qdzDLT')]//td//a[@class='m-l-sm edit_game_desktop'] clicked successfully
+2017-10-03 20:22:17,947 INFO  - Element is found By.xpath: //tr[contains(., 'qdzDLT')]//a[@class='delete_folder'] clicked successfully
+2017-10-03 20:22:19,149 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:22:20,334 INFO  - Element is found By.id: add_video clicked successfully
+2017-10-03 20:22:20,488 INFO  - Element is found By.id: youtube_upload_btn clicked successfully
+2017-10-03 20:22:22,135 INFO  - Element By.id: youtube_link is changed from original value  to https://www.youtube.com/watch?v=kXYiU_JCYtU
+2017-10-03 20:22:22,983 INFO  - Element is found By.id: preview_youtube_btn clicked successfully
+2017-10-03 20:22:23,625 INFO  - Element is found By.id: publish_youtube_link clicked successfully
+2017-10-03 20:22:25,870 INFO  - Element is found By.xpath: //tr[contains(., 'Numb (Official Video) - Linkin Park')]//td//a[@class='m-l-sm edit_game_desktop'] clicked successfully
+2017-10-03 20:22:25,985 INFO  - Element is found By.xpath: //a[@ng-click='openEditGameModal(row)'] clicked successfully
+2017-10-03 20:22:27,175 INFO  - Element By.cssSelector: .form-control.ng-not-empty is changed from original value Numb (Official Video) - Linkin Park to 
+2017-10-03 20:22:28,341 INFO  - Element By.cssSelector: .form-control.ng-dirty is changed from original value  to rzCeau
+2017-10-03 20:22:28,443 INFO  - Element is found By.id: update_video_button clicked successfully
+2017-10-03 20:22:31,593 INFO  - TEST IS: checkVdEditing
+2017-10-03 20:22:33,071 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:22:40,613 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:22:40,985 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:22:41,065 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:22:41,361 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:22:41,474 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:22:45,786 INFO  - Element is found By.xpath: //div[@name='rzCeau'] clicked successfully
+2017-10-03 20:22:48,110 INFO  - Element is found By.id: delete_videos clicked successfully
+2017-10-03 20:22:49,309 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:22:50,502 INFO  - Element is found By.id: add_video clicked successfully
+2017-10-03 20:22:50,698 INFO  - Element is found By.id: dropbox_upload_btn clicked successfully
+2017-10-03 20:22:51,915 INFO  - Element is found By.cssSelector: .dropbox-dropin-btn clicked successfully
+2017-10-03 20:22:54,563 INFO  - Element By.xpath: //input[@name='login_email'] is changed from original value  to kay4444@ukr.net
+2017-10-03 20:22:54,992 INFO  - Element By.xpath: //input[@name='login_password'] is changed from original value  to Kay4444@ukr
+2017-10-03 20:22:55,714 INFO  - Element is found By.cssSelector: .login-button clicked successfully
+2017-10-03 20:22:59,468 INFO  - Element is found By.xpath: //li[contains(., 'Video.mp4')] clicked successfully
+2017-10-03 20:22:59,648 INFO  - Element is found By.id: select-btn clicked successfully
+2017-10-03 20:23:00,834 INFO  - Element is found By.id: vid_submit clicked successfully
+2017-10-03 20:23:05,045 INFO  - TEST IS: checkVdUploadingFromDrBox
+2017-10-03 20:23:06,767 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:23:15,450 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:23:16,019 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:23:16,175 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:23:16,384 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:23:16,594 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:23:20,707 INFO  - Element is found By.xpath: //div[@name='Video(2).mp4'] clicked successfully
+2017-10-03 20:23:22,954 INFO  - Element is found By.id: delete_videos clicked successfully
+2017-10-03 20:23:24,205 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:23:25,435 INFO  - Element is found By.id: add_video clicked successfully
+2017-10-03 20:23:25,675 INFO  - Element is found By.id: file_upload_btn clicked successfully
+2017-10-03 20:23:26,892 INFO  - Element is found By.id: video_drop_zone clicked successfully
+2017-10-03 20:23:29,162 INFO  - Element is found By.id: vid_submit clicked successfully
+2017-10-03 20:24:55,851 INFO  - TEST IS: checkVdUploadingPC
+2017-10-03 20:24:57,401 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:25:05,154 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:25:05,559 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:25:05,678 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:25:05,931 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:25:06,263 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:25:10,063 INFO  - Element is found By.xpath: //div[@name='Video(2).mp4'] clicked successfully
+2017-10-03 20:25:12,323 INFO  - Element is found By.id: delete_videos clicked successfully
+2017-10-03 20:25:13,560 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:25:14,682 INFO  - Element is found By.id: add_video clicked successfully
+2017-10-03 20:25:14,838 INFO  - Element is found By.id: youtube_upload_btn clicked successfully
+2017-10-03 20:25:16,309 INFO  - Element By.id: youtube_link is changed from original value  to https://www.youtube.com/watch?v=kXYiU_JCYtU
+2017-10-03 20:25:17,011 INFO  - Element is found By.id: preview_youtube_btn clicked successfully
+2017-10-03 20:25:17,582 INFO  - Element is found By.id: publish_youtube_link clicked successfully
+2017-10-03 20:25:24,825 INFO  - TEST IS: checkVdUploadingYouTube
+2017-10-03 20:25:26,295 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:25:33,348 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:25:33,896 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:25:34,039 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:25:34,317 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:25:34,498 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:25:39,220 INFO  - Element is found By.id: add_video clicked successfully
+2017-10-03 20:25:39,430 INFO  - Element is found By.id: file_upload_btn clicked successfully
+2017-10-03 20:25:40,680 INFO  - Element is found By.id: video_drop_zone clicked successfully
+2017-10-03 20:25:42,935 INFO  - Element is found By.id: vid_submit clicked successfully
+2017-10-03 20:27:08,487 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:27:15,161 INFO  - Element is found By.id: advanced_tagging_tab clicked successfully
+2017-10-03 20:27:15,304 INFO  - Element is found By.id: settings_modal_gear clicked successfully
+2017-10-03 20:27:16,629 INFO  - Element By.xpath: //input[@ng-model='customTag.name'] is changed from original value  to GLCoa
+2017-10-03 20:27:16,769 INFO  - Element is found By.tagName: option clicked successfully
+2017-10-03 20:27:16,916 INFO  - Element is found By.xpath: //button[@ng-click='createCustomTag()'] clicked successfully
+2017-10-03 20:27:17,004 INFO  - Element is found By.id: video_setup_close_cross clicked successfully
+2017-10-03 20:27:18,399 INFO  - Element is found By.xpath: //button[@uib-tooltip='GLCoa'] clicked successfully
+2017-10-03 20:27:18,753 INFO  - Element is found By.id: activity_log_tab clicked successfully
+2017-10-03 20:27:20,979 INFO  - Navigate to https://portal.vloop.io/play_types
+2017-10-03 20:27:27,449 INFO  - Element is found By.xpath: //a[@cm-header='Delete tag'] clicked successfully
+2017-10-03 20:27:28,687 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:27:28,791 INFO  - Element is found By.xpath: //a[@cm-header='Delete tag'] clicked successfully
+2017-10-03 20:27:30,013 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:27:30,041 INFO  - TEST IS: checkAddingCommentByTag
+2017-10-03 20:27:31,638 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:27:38,665 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:27:39,346 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:27:39,493 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:27:39,845 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:27:40,001 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:27:45,569 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:27:50,571 INFO  - Element is found By.cssSelector: .new-comment-ta.no-right-radius clicked successfully
+2017-10-03 20:27:51,889 INFO  - Element By.id: comment-ta-main is changed from original value  to atrbs
+2017-10-03 20:27:52,152 INFO  - Element is found By.id: post_comment clicked successfully
+2017-10-03 20:27:54,257 INFO  - TEST IS: checkCommentAdding
+2017-10-03 20:27:55,721 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:28:03,044 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:28:03,497 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:28:03,565 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:28:03,696 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:28:03,821 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:28:09,213 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:28:13,261 INFO  - Element is found By.xpath: //div[@class='form-inline']/div[@class='icheckbox_square-green'] clicked successfully
+2017-10-03 20:28:14,505 INFO  - Element is found By.id: delete_play_icon clicked successfully
+2017-10-03 20:28:15,821 INFO  - Element is found By.cssSelector: .new-comment-ta.no-right-radius clicked successfully
+2017-10-03 20:28:17,168 INFO  - Element By.id: comment-ta-main is changed from original value  to atrbs
+2017-10-03 20:28:17,358 INFO  - Element is found By.id: post_comment clicked successfully
+2017-10-03 20:28:19,675 INFO  - Element is found By.linkText: Edit clicked successfully
+2017-10-03 20:28:19,760 INFO  - Element By.xpath: //div[@aria-hidden='false']/textarea is changed from original value atrbs to 
+2017-10-03 20:28:19,879 INFO  - Element By.xpath: //div[@aria-hidden='false']/textarea is changed from original value  to iorUf
+2017-10-03 20:28:20,016 INFO  - Element is found By.linkText: Save clicked successfully
+2017-10-03 20:28:21,079 INFO  - TEST IS: checkCommentEditing
+2017-10-03 20:28:22,525 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:28:29,686 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:28:29,908 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:28:30,024 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:28:30,316 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:28:30,464 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:28:35,693 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:28:40,571 INFO  - Element is found By.id: unhide-clip-button clicked successfully
+2017-10-03 20:28:41,798 INFO  - Element is found By.id: picture-icon clicked successfully
+2017-10-03 20:28:43,511 INFO  - Element By.id: upload-image is changed from original value  to 
+2017-10-03 20:28:43,625 INFO  - Element is found By.id: canvas_bg_img_close_btn clicked successfully
+2017-10-03 20:28:44,894 INFO  - Element is found By.id: btn-cnv-prim clicked successfully
+2017-10-03 20:29:00,293 INFO  - TEST IS: checkLoadImageCanvas
+2017-10-03 20:29:01,823 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:29:08,893 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:29:09,264 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:29:09,329 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:29:09,549 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:29:09,694 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:29:14,728 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:29:19,484 INFO  - Element is found By.id: take-photo-icon clicked successfully
+2017-10-03 20:29:24,415 INFO  - Element is found By.xpath: //button[@class='btn btn-white'] clicked successfully
+2017-10-03 20:29:24,486 INFO  - Navigate to https://portal.vloop.io/screenshots
+2017-10-03 20:31:43,451 INFO  - TEST IS: checkScreenShot
+2017-10-03 20:31:44,945 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:31:56,252 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:31:56,768 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:31:56,904 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:31:57,072 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:31:57,248 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:32:02,618 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:32:07,040 INFO  - Element is found By.id: forward-button clicked successfully
+2017-10-03 20:32:07,219 INFO  - Element is found By.id: rewind-button clicked successfully
+2017-10-03 20:32:07,242 INFO  - TEST IS: checkSkipBack
+2017-10-03 20:32:08,958 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:32:16,077 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:32:16,469 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:32:16,550 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:32:16,682 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:32:16,818 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:32:21,776 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:32:27,059 INFO  - Element is found By.id: forward-button clicked successfully
+2017-10-03 20:32:27,122 INFO  - TEST IS: checkSkipForward
+2017-10-03 20:32:28,940 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:32:36,034 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:32:36,441 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:32:36,530 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:32:36,786 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:32:37,039 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:32:43,250 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:32:49,242 INFO  - Element is found By.id: advanced_tagging_tab clicked successfully
+2017-10-03 20:32:49,428 INFO  - Element is found By.id: settings_modal_gear clicked successfully
+2017-10-03 20:32:50,804 INFO  - Element By.xpath: //input[@ng-model='customTag.name'] is changed from original value  to GLCoa
+2017-10-03 20:32:51,090 INFO  - Element is found By.tagName: option clicked successfully
+2017-10-03 20:32:51,332 INFO  - Element is found By.xpath: //button[@ng-click='createCustomTag()'] clicked successfully
+2017-10-03 20:32:51,422 INFO  - Element is found By.id: video_setup_close_cross clicked successfully
+2017-10-03 20:32:53,552 INFO  - Navigate to https://portal.vloop.io/play_types
+2017-10-03 20:32:58,766 INFO  - Element is found By.xpath: //a[@cm-header='Delete tag'] clicked successfully
+2017-10-03 20:33:00,063 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:33:00,203 INFO  - Element is found By.xpath: //a[@cm-header='Delete tag'] clicked successfully
+2017-10-03 20:33:01,527 INFO  - Element is found By.id: confirm-modal-button clicked successfully
+2017-10-03 20:33:01,539 INFO  - TEST IS: checkTagAdding
+2017-10-03 20:33:03,160 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:33:09,967 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:33:10,355 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:33:10,413 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:33:10,531 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:33:10,640 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:33:15,479 INFO  - Element is found By.xpath: //a[contains(., 'Video(2).mp4')] clicked successfully
+2017-10-03 20:33:20,472 INFO  - Element is found By.id: play-pause-icon clicked successfully
+2017-10-03 20:33:22,754 INFO  - Element is found By.id: play-pause-icon clicked successfully
+2017-10-03 20:33:22,799 INFO  - TEST IS: checkThatVideoIsPlayed
+2017-10-03 20:33:24,465 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:33:32,027 INFO  - Element is found By.id: contact_us clicked successfully
+2017-10-03 20:33:32,559 INFO  - TEST IS: checkContactUsLinkIsClickable
+2017-10-03 20:33:34,061 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:33:41,390 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:33:41,714 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:33:41,771 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:33:42,071 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:33:42,283 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:33:43,978 INFO  - TEST IS: checkLogIn
+2017-10-03 20:33:45,457 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:33:53,423 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:33:53,716 INFO  - Element By.id: user_email is changed from original value  to vloopapp15@gmail.com
+2017-10-03 20:33:53,765 INFO  - TEST IS: checkLogInBtnEnabled
+2017-10-03 20:33:55,256 INFO  - Navigate to http://portal.vloop.io/sign_in
+2017-10-03 20:34:02,792 INFO  - Element By.id: user_email is changed from original value  to 
+2017-10-03 20:34:03,288 INFO  - Element By.id: user_email is changed from original value  to vloopapp@gmail.com
+2017-10-03 20:34:03,400 INFO  - Element By.id: user_password is changed from original value  to 
+2017-10-03 20:34:03,669 INFO  - Element By.id: user_password is changed from original value  to 12345678vloop
+2017-10-03 20:34:03,793 INFO  - Element is found By.id: user_login clicked successfully
+2017-10-03 20:34:04,981 INFO  - TEST IS: checkWrongEmail

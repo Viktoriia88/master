@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="6" total="27" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="839220" started-at="2017-09-28T14:49:59Z" finished-at="2017-09-28T15:03:58Z">
+  <suite name="Suite1" duration-ms="878181" started-at="2017-10-03T18:19:28Z" finished-at="2017-10-03T18:34:06Z">
     <groups>
     </groups>
-    <test name="Vloop-login" duration-ms="839220" started-at="2017-09-28T14:49:59Z" finished-at="2017-09-28T15:03:58Z">
+    <test name="Vloop-login" duration-ms="878181" started-at="2017-10-03T18:19:28Z" finished-at="2017-10-03T18:34:06Z">
       <class name="TestsVloop">
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@43814d18]" name="createDriver" is-config="true" duration-ms="8868" started-at="2017-09-28T17:03:15Z" finished-at="2017-09-28T17:03:24Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@43814d18]" name="createDriver" is-config="true" duration-ms="8736" started-at="2017-10-03T20:33:23Z" finished-at="2017-10-03T20:33:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkContactUsLinkIsClickable()[pri:0, instance:TestsVloop@43814d18]" name="checkContactUsLinkIsClickable" duration-ms="539" started-at="2017-09-28T17:03:24Z" finished-at="2017-09-28T17:03:25Z">
+        <test-method status="PASS" signature="checkContactUsLinkIsClickable()[pri:0, instance:TestsVloop@43814d18]" name="checkContactUsLinkIsClickable" duration-ms="812" started-at="2017-10-03T20:33:31Z" finished-at="2017-10-03T20:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContactUsLinkIsClickable -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloop@43814d18]" name="tearDown" is-config="true" duration-ms="125" started-at="2017-09-28T17:03:25Z" finished-at="2017-09-28T17:03:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloop@43814d18]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-28T17:03:25Z" finished-at="2017-09-28T17:03:25Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloop@43814d18]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:33:32Z" finished-at="2017-10-03T20:33:32Z">
           <params>
             <param index="0">
               <value>
@@ -30,15 +26,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@43814d18]" name="createDriver" is-config="true" duration-ms="10842" started-at="2017-09-28T17:03:25Z" finished-at="2017-09-28T17:03:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloop@43814d18]" name="tearDown" is-config="true" duration-ms="144" started-at="2017-10-03T20:33:32Z" finished-at="2017-10-03T20:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@43814d18]" name="createDriver" is-config="true" duration-ms="8630" started-at="2017-10-03T20:33:32Z" finished-at="2017-10-03T20:33:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkLogIn()[pri:0, instance:TestsVloop@43814d18]" name="checkLogIn" duration-ms="2715" started-at="2017-09-28T17:03:36Z" finished-at="2017-09-28T17:03:39Z">
+        <test-method status="PASS" signature="checkLogIn()[pri:0, instance:TestsVloop@43814d18]" name="checkLogIn" duration-ms="2645" started-at="2017-10-03T20:33:41Z" finished-at="2017-10-03T20:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogIn -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloop@43814d18]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T17:03:39Z" finished-at="2017-09-28T17:03:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloop@43814d18]" name="tearDown" is-config="true" duration-ms="109" started-at="2017-10-03T20:33:43Z" finished-at="2017-10-03T20:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloop@43814d18]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:33:43Z" finished-at="2017-10-03T20:33:43Z">
           <params>
             <param index="0">
               <value>
@@ -49,19 +53,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloop@43814d18]" name="tearDown" is-config="true" duration-ms="107" started-at="2017-09-28T17:03:39Z" finished-at="2017-09-28T17:03:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@43814d18]" name="createDriver" is-config="true" duration-ms="7974" started-at="2017-09-28T17:03:39Z" finished-at="2017-09-28T17:03:47Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@43814d18]" name="createDriver" is-config="true" duration-ms="9260" started-at="2017-10-03T20:33:44Z" finished-at="2017-10-03T20:33:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkLogInBtnEnabled()[pri:0, instance:TestsVloop@43814d18]" name="checkLogInBtnEnabled" duration-ms="429" started-at="2017-09-28T17:03:47Z" finished-at="2017-09-28T17:03:47Z">
+        <test-method status="PASS" signature="checkLogInBtnEnabled()[pri:0, instance:TestsVloop@43814d18]" name="checkLogInBtnEnabled" duration-ms="417" started-at="2017-10-03T20:33:53Z" finished-at="2017-10-03T20:33:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogInBtnEnabled -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloop@43814d18]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-28T17:03:47Z" finished-at="2017-09-28T17:03:47Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloop@43814d18]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-10-03T20:33:53Z" finished-at="2017-10-03T20:33:53Z">
           <params>
             <param index="0">
               <value>
@@ -72,19 +72,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloop@43814d18]" name="tearDown" is-config="true" duration-ms="134" started-at="2017-09-28T17:03:47Z" finished-at="2017-09-28T17:03:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloop@43814d18]" name="tearDown" is-config="true" duration-ms="110" started-at="2017-10-03T20:33:53Z" finished-at="2017-10-03T20:33:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@43814d18]" name="createDriver" is-config="true" duration-ms="8432" started-at="2017-09-28T17:03:47Z" finished-at="2017-09-28T17:03:56Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloop@43814d18]" name="createDriver" is-config="true" duration-ms="8788" started-at="2017-10-03T20:33:53Z" finished-at="2017-10-03T20:34:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="checkWrongEmail()[pri:0, instance:TestsVloop@43814d18]" name="checkWrongEmail" duration-ms="1667" started-at="2017-09-28T17:03:56Z" finished-at="2017-09-28T17:03:57Z">
+        <test-method status="PASS" signature="checkWrongEmail()[pri:0, instance:TestsVloop@43814d18]" name="checkWrongEmail" duration-ms="2318" started-at="2017-10-03T20:34:02Z" finished-at="2017-10-03T20:34:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkWrongEmail -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloop@43814d18]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T17:03:57Z" finished-at="2017-09-28T17:03:57Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloop@43814d18]" name="tearDown" is-config="true" duration-ms="128" started-at="2017-10-03T20:34:04Z" finished-at="2017-10-03T20:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloop@43814d18]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:34:04Z" finished-at="2017-10-03T20:34:04Z">
           <params>
             <param index="0">
               <value>
@@ -95,33 +99,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloop@43814d18]" name="tearDown" is-config="true" duration-ms="116" started-at="2017-09-28T17:03:57Z" finished-at="2017-09-28T17:03:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- TestsVloop -->
       <class name="TestsVloopHomePage">
-        <test-method status="PASS" signature="deleteScreenDirection()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="deleteScreenDirection" is-config="true" duration-ms="18" started-at="2017-09-28T16:49:59Z" finished-at="2017-09-28T16:49:59Z">
+        <test-method status="PASS" signature="deleteScreenDirection()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="deleteScreenDirection" is-config="true" duration-ms="23" started-at="2017-10-03T20:19:28Z" finished-at="2017-10-03T20:19:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteScreenDirection -->
-        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createAndStartService" is-config="true" duration-ms="163" started-at="2017-09-28T16:49:59Z" finished-at="2017-09-28T16:49:59Z">
+        <test-method status="PASS" signature="createAndStartService()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createAndStartService" is-config="true" duration-ms="2311" started-at="2017-10-03T20:19:28Z" finished-at="2017-10-03T20:19:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="8997" started-at="2017-09-28T16:49:59Z" finished-at="2017-09-28T16:50:08Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="9418" started-at="2017-10-03T20:19:30Z" finished-at="2017-10-03T20:19:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="18421" started-at="2017-09-28T16:50:08Z" finished-at="2017-09-28T16:50:27Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="15740" started-at="2017-10-03T20:19:39Z" finished-at="2017-10-03T20:19:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanHomePage -->
-        <test-method status="PASS" signature="checkEditingFolder()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkEditingFolder" duration-ms="8151" started-at="2017-09-28T16:50:27Z" finished-at="2017-09-28T16:50:35Z">
+        <test-method status="PASS" signature="checkEditingFolder()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkEditingFolder" duration-ms="8692" started-at="2017-10-03T20:19:55Z" finished-at="2017-10-03T20:20:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEditingFolder -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="3" started-at="2017-09-28T16:50:35Z" finished-at="2017-09-28T16:50:35Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="8" started-at="2017-10-03T20:20:04Z" finished-at="2017-10-03T20:20:04Z">
           <params>
             <param index="0">
               <value>
@@ -132,27 +132,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="116" started-at="2017-09-28T16:50:35Z" finished-at="2017-09-28T16:50:35Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="228" started-at="2017-10-03T20:20:04Z" finished-at="2017-10-03T20:20:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="8626" started-at="2017-09-28T16:50:35Z" finished-at="2017-09-28T16:50:43Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="9501" started-at="2017-10-03T20:20:04Z" finished-at="2017-10-03T20:20:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="7563" started-at="2017-09-28T16:50:43Z" finished-at="2017-09-28T16:50:51Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9234" started-at="2017-10-03T20:20:13Z" finished-at="2017-10-03T20:20:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanHomePage -->
-        <test-method status="PASS" signature="checkFileEditing()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkFileEditing" duration-ms="31216" started-at="2017-09-28T16:50:51Z" finished-at="2017-09-28T16:51:22Z">
+        <test-method status="PASS" signature="checkFileEditing()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkFileEditing" duration-ms="32105" started-at="2017-10-03T20:20:23Z" finished-at="2017-10-03T20:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFileEditing -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="136" started-at="2017-09-28T16:51:22Z" finished-at="2017-09-28T16:51:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-28T16:51:22Z" finished-at="2017-09-28T16:51:22Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="4" started-at="2017-10-03T20:20:55Z" finished-at="2017-10-03T20:20:55Z">
           <params>
             <param index="0">
               <value>
@@ -163,19 +159,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="8540" started-at="2017-09-28T16:51:22Z" finished-at="2017-09-28T16:51:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="132" started-at="2017-10-03T20:20:55Z" finished-at="2017-10-03T20:20:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="7929" started-at="2017-10-03T20:20:55Z" finished-at="2017-10-03T20:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9087" started-at="2017-09-28T16:51:31Z" finished-at="2017-09-28T16:51:40Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9459" started-at="2017-10-03T20:21:03Z" finished-at="2017-10-03T20:21:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanHomePage -->
-        <test-method status="PASS" signature="checkFileUploading()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkFileUploading" duration-ms="27577" started-at="2017-09-28T16:51:40Z" finished-at="2017-09-28T16:52:08Z">
+        <test-method status="PASS" signature="checkFileUploading()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkFileUploading" duration-ms="27878" started-at="2017-10-03T20:21:12Z" finished-at="2017-10-03T20:21:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFileUploading -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-28T16:52:08Z" finished-at="2017-09-28T16:52:08Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="4" started-at="2017-10-03T20:21:40Z" finished-at="2017-10-03T20:21:40Z">
           <params>
             <param index="0">
               <value>
@@ -186,23 +186,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="169" started-at="2017-09-28T16:52:08Z" finished-at="2017-09-28T16:52:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="188" started-at="2017-10-03T20:21:40Z" finished-at="2017-10-03T20:21:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="7689" started-at="2017-09-28T16:52:08Z" finished-at="2017-09-28T16:52:15Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="8430" started-at="2017-10-03T20:21:40Z" finished-at="2017-10-03T20:21:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="8842" started-at="2017-09-28T16:52:15Z" finished-at="2017-09-28T16:52:24Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9439" started-at="2017-10-03T20:21:49Z" finished-at="2017-10-03T20:21:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanHomePage -->
-        <test-method status="PASS" signature="checkNewFolderIsAdded()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkNewFolderIsAdded" duration-ms="4599" started-at="2017-09-28T16:52:24Z" finished-at="2017-09-28T16:52:29Z">
+        <test-method status="PASS" signature="checkNewFolderIsAdded()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkNewFolderIsAdded" duration-ms="4978" started-at="2017-10-03T20:21:58Z" finished-at="2017-10-03T20:22:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNewFolderIsAdded -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T16:52:29Z" finished-at="2017-09-28T16:52:29Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-10-03T20:22:03Z" finished-at="2017-10-03T20:22:03Z">
           <params>
             <param index="0">
               <value>
@@ -213,23 +213,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="101" started-at="2017-09-28T16:52:29Z" finished-at="2017-09-28T16:52:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="161" started-at="2017-10-03T20:22:03Z" finished-at="2017-10-03T20:22:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="8637" started-at="2017-09-28T16:52:29Z" finished-at="2017-09-28T16:52:38Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="7944" started-at="2017-10-03T20:22:03Z" finished-at="2017-10-03T20:22:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="8313" started-at="2017-09-28T16:52:38Z" finished-at="2017-09-28T16:52:46Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="8377" started-at="2017-10-03T20:22:11Z" finished-at="2017-10-03T20:22:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanHomePage -->
-        <test-method status="PASS" signature="checkVdEditing()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkVdEditing" duration-ms="11780" started-at="2017-09-28T16:52:46Z" finished-at="2017-09-28T16:52:58Z">
+        <test-method status="PASS" signature="checkVdEditing()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkVdEditing" duration-ms="11371" started-at="2017-10-03T20:22:20Z" finished-at="2017-10-03T20:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkVdEditing -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T16:52:58Z" finished-at="2017-09-28T16:52:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="115" started-at="2017-10-03T20:22:31Z" finished-at="2017-10-03T20:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:22:31Z" finished-at="2017-10-03T20:22:31Z">
           <params>
             <param index="0">
               <value>
@@ -240,23 +244,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="135" started-at="2017-09-28T16:52:58Z" finished-at="2017-09-28T16:52:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="7968" started-at="2017-09-28T16:52:58Z" finished-at="2017-09-28T16:53:06Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="8773" started-at="2017-10-03T20:22:31Z" finished-at="2017-10-03T20:22:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9494" started-at="2017-09-28T16:53:06Z" finished-at="2017-09-28T16:53:15Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9853" started-at="2017-10-03T20:22:40Z" finished-at="2017-10-03T20:22:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanHomePage -->
-        <test-method status="PASS" signature="checkVdUploadingFromDrBox()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkVdUploadingFromDrBox" duration-ms="12232" started-at="2017-09-28T16:53:15Z" finished-at="2017-09-28T16:53:28Z">
+        <test-method status="PASS" signature="checkVdUploadingFromDrBox()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkVdUploadingFromDrBox" duration-ms="14710" started-at="2017-10-03T20:22:50Z" finished-at="2017-10-03T20:23:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkVdUploadingFromDrBox -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-28T16:53:28Z" finished-at="2017-09-28T16:53:28Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-10-03T20:23:05Z" finished-at="2017-10-03T20:23:05Z">
           <params>
             <param index="0">
               <value>
@@ -267,23 +267,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="158" started-at="2017-09-28T16:53:28Z" finished-at="2017-09-28T16:53:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="285" started-at="2017-10-03T20:23:05Z" finished-at="2017-10-03T20:23:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="8540" started-at="2017-09-28T16:53:28Z" finished-at="2017-09-28T16:53:36Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="9980" started-at="2017-10-03T20:23:05Z" finished-at="2017-10-03T20:23:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="8823" started-at="2017-09-28T16:53:36Z" finished-at="2017-09-28T16:53:45Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9905" started-at="2017-10-03T20:23:15Z" finished-at="2017-10-03T20:23:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanHomePage -->
-        <test-method status="PASS" signature="checkVdUploadingPC()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkVdUploadingPC" duration-ms="89769" started-at="2017-09-28T16:53:45Z" finished-at="2017-09-28T16:55:15Z">
+        <test-method status="PASS" signature="checkVdUploadingPC()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkVdUploadingPC" duration-ms="90632" started-at="2017-10-03T20:23:25Z" finished-at="2017-10-03T20:24:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkVdUploadingPC -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T16:55:15Z" finished-at="2017-09-28T16:55:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="196" started-at="2017-10-03T20:24:55Z" finished-at="2017-10-03T20:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:24:55Z" finished-at="2017-10-03T20:24:55Z">
           <params>
             <param index="0">
               <value>
@@ -294,23 +298,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="117" started-at="2017-09-28T16:55:15Z" finished-at="2017-09-28T16:55:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="7967" started-at="2017-09-28T16:55:15Z" finished-at="2017-09-28T16:55:23Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="createDriver" is-config="true" duration-ms="8991" started-at="2017-10-03T20:24:56Z" finished-at="2017-10-03T20:25:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9724" started-at="2017-09-28T16:55:23Z" finished-at="2017-09-28T16:55:33Z">
+        <test-method status="PASS" signature="cleanHomePage()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="cleanHomePage" is-config="true" duration-ms="9535" started-at="2017-10-03T20:25:05Z" finished-at="2017-10-03T20:25:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanHomePage -->
-        <test-method status="PASS" signature="checkVdUploadingYouTube()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkVdUploadingYouTube" duration-ms="9187" started-at="2017-09-28T16:55:33Z" finished-at="2017-09-28T16:55:42Z">
+        <test-method status="PASS" signature="checkVdUploadingYouTube()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="checkVdUploadingYouTube" duration-ms="10252" started-at="2017-10-03T20:25:14Z" finished-at="2017-10-03T20:25:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkVdUploadingYouTube -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T16:55:42Z" finished-at="2017-09-28T16:55:42Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:25:24Z" finished-at="2017-10-03T20:25:24Z">
           <params>
             <param index="0">
               <value>
@@ -321,29 +321,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="105" started-at="2017-09-28T16:55:42Z" finished-at="2017-09-28T16:55:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="tearDown" is-config="true" duration-ms="132" started-at="2017-10-03T20:25:24Z" finished-at="2017-10-03T20:25:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="stopService()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="stopService" is-config="true" duration-ms="787" started-at="2017-09-28T17:03:57Z" finished-at="2017-09-28T17:03:58Z">
+        <test-method status="PASS" signature="stopService()[pri:0, instance:TestsVloopHomePage@5ae63ade]" name="stopService" is-config="true" duration-ms="1116" started-at="2017-10-03T20:34:05Z" finished-at="2017-10-03T20:34:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopService -->
       </class> <!-- TestsVloopHomePage -->
       <class name="TestVloopGamePage">
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="7883" started-at="2017-09-28T16:55:42Z" finished-at="2017-09-28T16:55:50Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8251" started-at="2017-10-03T20:25:24Z" finished-at="2017-10-03T20:25:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="95549" started-at="2017-09-28T16:55:50Z" finished-at="2017-09-28T16:57:25Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="100574" started-at="2017-10-03T20:25:33Z" finished-at="2017-10-03T20:27:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkAddingCommentByTag()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkAddingCommentByTag" duration-ms="14835" started-at="2017-09-28T16:57:25Z" finished-at="2017-09-28T16:57:40Z">
+        <test-method status="PASS" signature="checkAddingCommentByTag()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkAddingCommentByTag" duration-ms="16255" started-at="2017-10-03T20:27:13Z" finished-at="2017-10-03T20:27:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAddingCommentByTag -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-28T16:57:40Z" finished-at="2017-09-28T16:57:40Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:27:30Z" finished-at="2017-10-03T20:27:30Z">
           <params>
             <param index="0">
               <value>
@@ -354,23 +354,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="117" started-at="2017-09-28T16:57:40Z" finished-at="2017-09-28T16:57:40Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="218" started-at="2017-10-03T20:27:30Z" finished-at="2017-10-03T20:27:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="7964" started-at="2017-09-28T16:57:40Z" finished-at="2017-09-28T16:57:48Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8275" started-at="2017-10-03T20:27:30Z" finished-at="2017-10-03T20:27:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="8796" started-at="2017-09-28T16:57:48Z" finished-at="2017-09-28T16:57:57Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="10586" started-at="2017-10-03T20:27:38Z" finished-at="2017-10-03T20:27:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkCommentAdding()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkCommentAdding" duration-ms="4762" started-at="2017-09-28T16:57:57Z" finished-at="2017-09-28T16:58:02Z">
+        <test-method status="PASS" signature="checkCommentAdding()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkCommentAdding" duration-ms="5137" started-at="2017-10-03T20:27:49Z" finished-at="2017-10-03T20:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCommentAdding -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T16:58:02Z" finished-at="2017-09-28T16:58:02Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:27:54Z" finished-at="2017-10-03T20:27:54Z">
           <params>
             <param index="0">
               <value>
@@ -381,23 +381,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="123" started-at="2017-09-28T16:58:02Z" finished-at="2017-09-28T16:58:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="103" started-at="2017-10-03T20:27:54Z" finished-at="2017-10-03T20:27:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8541" started-at="2017-09-28T16:58:02Z" finished-at="2017-09-28T16:58:11Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8632" started-at="2017-10-03T20:27:54Z" finished-at="2017-10-03T20:28:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="8970" started-at="2017-09-28T16:58:11Z" finished-at="2017-09-28T16:58:20Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="10110" started-at="2017-10-03T20:28:02Z" finished-at="2017-10-03T20:28:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkCommentEditing()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkCommentEditing" duration-ms="7660" started-at="2017-09-28T16:58:20Z" finished-at="2017-09-28T16:58:27Z">
+        <test-method status="PASS" signature="checkCommentEditing()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkCommentEditing" duration-ms="7977" started-at="2017-10-03T20:28:13Z" finished-at="2017-10-03T20:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCommentEditing -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T16:58:27Z" finished-at="2017-09-28T16:58:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="100" started-at="2017-10-03T20:28:21Z" finished-at="2017-10-03T20:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:28:21Z" finished-at="2017-10-03T20:28:21Z">
           <params>
             <param index="0">
               <value>
@@ -408,27 +412,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="98" started-at="2017-09-28T16:58:27Z" finished-at="2017-09-28T16:58:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8372" started-at="2017-09-28T16:58:27Z" finished-at="2017-09-28T16:58:36Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8407" started-at="2017-10-03T20:28:21Z" finished-at="2017-10-03T20:28:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="9055" started-at="2017-09-28T16:58:36Z" finished-at="2017-09-28T16:58:45Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="9769" started-at="2017-10-03T20:28:29Z" finished-at="2017-10-03T20:28:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkLoadImageCanvas()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkLoadImageCanvas" duration-ms="18475" started-at="2017-09-28T16:58:45Z" finished-at="2017-09-28T16:59:03Z">
+        <test-method status="PASS" signature="checkLoadImageCanvas()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkLoadImageCanvas" duration-ms="20937" started-at="2017-10-03T20:28:39Z" finished-at="2017-10-03T20:29:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoadImageCanvas -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="141" started-at="2017-09-28T16:59:03Z" finished-at="2017-09-28T16:59:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-28T16:59:03Z" finished-at="2017-09-28T16:59:03Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:29:00Z" finished-at="2017-10-03T20:29:00Z">
           <params>
             <param index="0">
               <value>
@@ -439,19 +435,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8072" started-at="2017-09-28T16:59:03Z" finished-at="2017-09-28T16:59:11Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="120" started-at="2017-10-03T20:29:00Z" finished-at="2017-10-03T20:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8411" started-at="2017-10-03T20:29:00Z" finished-at="2017-10-03T20:29:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="9959" started-at="2017-09-28T16:59:11Z" finished-at="2017-09-28T16:59:21Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="10381" started-at="2017-10-03T20:29:08Z" finished-at="2017-10-03T20:29:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkScreenShot()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkScreenShot" duration-ms="134120" started-at="2017-09-28T16:59:21Z" finished-at="2017-09-28T17:01:35Z">
+        <test-method status="PASS" signature="checkScreenShot()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkScreenShot" duration-ms="144245" started-at="2017-10-03T20:29:19Z" finished-at="2017-10-03T20:31:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkScreenShot -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T17:01:35Z" finished-at="2017-09-28T17:01:35Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:31:43Z" finished-at="2017-10-03T20:31:43Z">
           <params>
             <param index="0">
               <value>
@@ -462,27 +462,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="109" started-at="2017-09-28T17:01:35Z" finished-at="2017-09-28T17:01:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="122" started-at="2017-10-03T20:31:43Z" finished-at="2017-10-03T20:31:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="9185" started-at="2017-09-28T17:01:36Z" finished-at="2017-09-28T17:01:45Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="12494" started-at="2017-10-03T20:31:43Z" finished-at="2017-10-03T20:31:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="11729" started-at="2017-09-28T17:01:45Z" finished-at="2017-09-28T17:01:56Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="10781" started-at="2017-10-03T20:31:56Z" finished-at="2017-10-03T20:32:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkSkipBack()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkSkipBack" duration-ms="468" started-at="2017-09-28T17:01:56Z" finished-at="2017-09-28T17:01:57Z">
+        <test-method status="PASS" signature="checkSkipBack()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkSkipBack" duration-ms="393" started-at="2017-10-03T20:32:06Z" finished-at="2017-10-03T20:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSkipBack -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="141" started-at="2017-09-28T17:01:57Z" finished-at="2017-09-28T17:01:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-09-28T17:01:57Z" finished-at="2017-09-28T17:01:57Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-10-03T20:32:07Z" finished-at="2017-10-03T20:32:07Z">
           <params>
             <param index="0">
               <value>
@@ -493,19 +489,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8022" started-at="2017-09-28T17:01:57Z" finished-at="2017-09-28T17:02:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="132" started-at="2017-10-03T20:32:07Z" finished-at="2017-10-03T20:32:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8579" started-at="2017-10-03T20:32:07Z" finished-at="2017-10-03T20:32:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="10339" started-at="2017-09-28T17:02:05Z" finished-at="2017-09-28T17:02:15Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="10700" started-at="2017-10-03T20:32:15Z" finished-at="2017-10-03T20:32:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkSkipForward()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkSkipForward" duration-ms="202" started-at="2017-09-28T17:02:15Z" finished-at="2017-09-28T17:02:16Z">
+        <test-method status="PASS" signature="checkSkipForward()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkSkipForward" duration-ms="468" started-at="2017-10-03T20:32:26Z" finished-at="2017-10-03T20:32:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkSkipForward -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T17:02:16Z" finished-at="2017-09-28T17:02:16Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:32:27Z" finished-at="2017-10-03T20:32:27Z">
           <params>
             <param index="0">
               <value>
@@ -516,23 +516,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="116" started-at="2017-09-28T17:02:16Z" finished-at="2017-09-28T17:02:16Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="174" started-at="2017-10-03T20:32:27Z" finished-at="2017-10-03T20:32:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="7959" started-at="2017-09-28T17:02:16Z" finished-at="2017-09-28T17:02:24Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8485" started-at="2017-10-03T20:32:27Z" finished-at="2017-10-03T20:32:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="12392" started-at="2017-09-28T17:02:24Z" finished-at="2017-09-28T17:02:36Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="12271" started-at="2017-10-03T20:32:35Z" finished-at="2017-10-03T20:32:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkTagAdding()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkTagAdding" duration-ms="12360" started-at="2017-09-28T17:02:36Z" finished-at="2017-09-28T17:02:48Z">
+        <test-method status="PASS" signature="checkTagAdding()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkTagAdding" duration-ms="13487" started-at="2017-10-03T20:32:48Z" finished-at="2017-10-03T20:33:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTagAdding -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T17:02:48Z" finished-at="2017-09-28T17:02:48Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="0" started-at="2017-10-03T20:33:01Z" finished-at="2017-10-03T20:33:01Z">
           <params>
             <param index="0">
               <value>
@@ -543,23 +543,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="116" started-at="2017-09-28T17:02:48Z" finished-at="2017-09-28T17:02:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="140" started-at="2017-10-03T20:33:01Z" finished-at="2017-10-03T20:33:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="7955" started-at="2017-09-28T17:02:49Z" finished-at="2017-09-28T17:02:57Z">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:TestVloopGamePage@610694f1]" name="createDriver" is-config="true" duration-ms="8138" started-at="2017-10-03T20:33:01Z" finished-at="2017-10-03T20:33:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="16438" started-at="2017-09-28T17:02:57Z" finished-at="2017-09-28T17:03:13Z">
+        <test-method status="PASS" signature="uploadVideo()[pri:0, instance:TestVloopGamePage@610694f1]" name="uploadVideo" is-config="true" duration-ms="10352" started-at="2017-10-03T20:33:09Z" finished-at="2017-10-03T20:33:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- uploadVideo -->
-        <test-method status="PASS" signature="checkThatVideoIsPlayed()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkThatVideoIsPlayed" duration-ms="2353" started-at="2017-09-28T17:03:13Z" finished-at="2017-09-28T17:03:15Z">
+        <test-method status="PASS" signature="checkThatVideoIsPlayed()[pri:0, instance:TestVloopGamePage@610694f1]" name="checkThatVideoIsPlayed" duration-ms="2628" started-at="2017-10-03T20:33:20Z" finished-at="2017-10-03T20:33:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkThatVideoIsPlayed -->
-        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-09-28T17:03:15Z" finished-at="2017-09-28T17:03:15Z">
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:TestVloopGamePage@610694f1]" name="takeScreenShot" is-config="true" duration-ms="1" started-at="2017-10-03T20:33:22Z" finished-at="2017-10-03T20:33:22Z">
           <params>
             <param index="0">
               <value>
@@ -570,7 +570,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="112" started-at="2017-09-28T17:03:15Z" finished-at="2017-09-28T17:03:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestVloopGamePage@610694f1]" name="tearDown" is-config="true" duration-ms="211" started-at="2017-10-03T20:33:22Z" finished-at="2017-10-03T20:33:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

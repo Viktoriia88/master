@@ -43,12 +43,12 @@ public class Element extends Setting{
     }
     
     public void waitIsPresent(){
-        Setting.sleep(1);
+        sleep(1);
         for (int i = 0; i < 120; i++){
             if (isPresent()== true){
                 break;
             }
-            Setting.sleep(1);
+            sleep(1);
         }
     }
     

@@ -2,8 +2,11 @@ import Element.Element;
 import Pages.SignIn;
 import Settings.Setting;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
 
 
 public class TestsVloop extends Setting{

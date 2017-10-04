@@ -38,7 +38,6 @@ public class Game extends Setting{
     private Element tagBtn = new Element(By.cssSelector(".btn-primary.m-b-xs"));
     private Element commentsTxtFld = new Element(By.cssSelector(".pt_on_comment"));
     private Element crtTagBtn = new Element(By.xpath("//button[@ng-click='createTagModal()']"));
-    private Element mediaControlPanel = new Element(By.id("media-controls"));
     private Element screenShotBtn = new Element(By.id("take-photo-icon"));
     private Element screenShotFld = new Element(By.id("share-screenshot"));
     private Element screenShotInput = new Element(By.cssSelector(".no_right_radius"));
@@ -173,12 +172,6 @@ public class Game extends Setting{
         catch (NoSuchElementException e){
             e.printStackTrace();
         }
-    }
-
-    public boolean isTagPresent(String tag){
-        Element tagName = new Element(By.xpath("//tr[contains(., '" + tag + "')]"));
-        Setting.sleep(3);
-        return tagName.isPresent();
     }
 
     public void addCommentByTag(String tag){

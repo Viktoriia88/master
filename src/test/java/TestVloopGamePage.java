@@ -18,9 +18,9 @@ public class TestVloopGamePage extends Setting {
         SignIn signIn = new SignIn();
         signIn.logIn("vloopapp15@gmail.com", "12345678vloop");
         Home home = new Home();
-        Setting.sleep(1);
+        sleep(1);
         home.selectVideo(video);
-        Setting.sleep(1);
+        sleep(1);
     }
 
     @Test
@@ -72,7 +72,7 @@ public class TestVloopGamePage extends Setting {
     public void checkTagAdding(){
         Game game = new Game();
         game.addTag(tag);
-        Setting.sleep(2);
+        sleep(2);
         Assert.assertTrue(game.getTagsText().contains(tag));
         game.deleteTag();
     }

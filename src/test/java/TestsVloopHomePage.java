@@ -22,7 +22,7 @@ public class TestsVloopHomePage extends Setting {
         SignIn signIn = new SignIn();
         signIn.logIn("vloopapp15@gmail.com", "12345678vloop");
         Home home = new Home();
-        Setting.sleep(2);
+        sleep(2);
         home.clean();
     }
 
@@ -30,7 +30,7 @@ public class TestsVloopHomePage extends Setting {
     public void checkNewFolderIsAdded(){
         Home home = new Home();
         home.addNewFolder(folder);
-        Setting.sleep(1);
+        sleep(1);
         Assert.assertTrue(home.isFolderPresent(folder));
     }
 
@@ -54,7 +54,7 @@ public class TestsVloopHomePage extends Setting {
         Home home = new Home();
         home.uploadFileFromPc();
         home.edit(file, editFl);
-        Setting.sleep(1);
+        sleep(1);
         Assert.assertTrue(home.isGamePresent(editFl));
     }
 
@@ -62,7 +62,7 @@ public class TestsVloopHomePage extends Setting {
     public void checkVdUploadingFromDrBox(){
         Home home = new Home();
         home.uploadVideoFromDropBox("kay4444@ukr.net", "Kay4444@ukr", video);
-        Setting.sleep(1);
+        sleep(1);
         Assert.assertTrue(home.isGamePresent(home.getGameTitle()));
     }
 
@@ -77,7 +77,7 @@ public class TestsVloopHomePage extends Setting {
     public void checkVdUploadingYouTube(){
         Home home = new Home();
         home.uploadYouTubeVideo(linkYT, videoYT);
-        Setting.sleep(2);
+        sleep(2);
         Assert.assertTrue(home.isGamePresent(videoYT));
         Assert.assertEquals(home.getVdDuration(videoYT), "00:03:07");
     }
