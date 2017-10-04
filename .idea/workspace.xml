@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9cacf75-4cd5-4d2d-8c51-3dd0949a4d0c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestVloopGamePage.class" afterPath="$PROJECT_DIR$/target/test-classes/TestVloopGamePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestsVloop.class" afterPath="$PROJECT_DIR$/target/test-classes/TestsVloop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestsVloopHomePage.class" afterPath="$PROJECT_DIR$/target/test-classes/TestsVloopHomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appLog4j.log" afterPath="$PROJECT_DIR$/appLog4j.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Element/Element.java" afterPath="$PROJECT_DIR$/src/main/java/Element/Element.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/Game.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/Home.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestVloopGamePage.java" afterPath="$PROJECT_DIR$/src/test/java/TestVloopGamePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestsVloop.java" afterPath="$PROJECT_DIR$/src/test/java/TestsVloop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-login.html" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-login.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite1/Vloop-login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" afterPath="$PROJECT_DIR$/target/surefire-reports/html/suite1_test1_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestVloopGamePage.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestVloopGamePage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsVloop.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsVloop.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsVloopHomePage.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsVloopHomePage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite1/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/xml/TestVloopGamePage_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/TestVloopGamePage_results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/xml/TestsVloopHomePage_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/TestsVloopHomePage_results.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/xml/TestsVloop_results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/xml/TestsVloop_results.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,6 +23,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1480">
               <caret line="79" column="8" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Home.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="267" column="16" lean-forward="false" selection-start-line="267" selection-start-column="16" selection-end-line="267" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -90,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -173,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="1284" />
     <option name="height" value="687" />
@@ -610,7 +592,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -819,19 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1894">
-          <caret line="267" column="16" lean-forward="false" selection-start-line="267" selection-start-column="16" selection-end-line="267" selection-end-column="16" />
-          <folding>
-            <element signature="e#8477#8478#0" expanded="false" />
-            <element signature="e#8527#8528#0" expanded="false" />
-            <element signature="e#8562#8563#0" expanded="false" />
-            <element signature="e#8613#8614#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestsVloopHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1480">
@@ -872,6 +841,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="267" column="16" lean-forward="false" selection-start-line="267" selection-start-column="16" selection-end-line="267" selection-end-column="16" />
           <folding />
         </state>
       </provider>
